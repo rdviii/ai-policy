@@ -1,0 +1,128 @@
+# Artificial Intelligence (AI) Policy for the AQUA Research Group, Quantum Information Processing, and Quantum Internet (Fall 2025)
+
+I am definitely not an anti-technologist (as evidenced by my career choices), but that doesn't mean I always instantly and unquestioningly accept every new thing that comes down the highway.  (In fact, I'm often kind of slow to adopt new technology into my daily workflow.)  As I have gotten older (and more experienced, if not actually wiser), I have come to see that technology is not always an automatic good for society.  (This is one of the driving reasons for the creation of the Keio Cyber Civilization Research Center.)  Artificial intelligence (AI), in its current instantiation, warrants a great deal of caution as we approach (or have already reached?) widespread use.  Let me spend some time explaining my opinion before laying down some actionable rules.
+
+## My Own Thoughts: Principles and History
+
+I have been reading science fiction for about half a century now, starting with all of the Isaac Asimov I could get my hands on, which involved a lot of stories about robots (i.e., embodied AI).  (Mild spoiler alerts, if you care about such things for half-century old stories.)  Many of those stories worked from the assumption that robots and AI would be beneficial, and simply tried to work out quirks of the technology and the logic robots would follow (notably Asimov's Laws), though the distate of the human protagonist for his robot partner in the R. Daneel Olivaw novels left an impression on me.  A little more disturbing is Jack Williamson's "With Folded Hands", in which robots "protect" humans from doing almost anything interesting in the name of protecting them from harm.  Following that thread to a different logical conclusion, in the 1980s Asimov retconned a connection between his not-so-far-future robot stories and his Foundation space opera universe (which had no robots), via the interesting plot device of robots collectively deciding that the best thing for Humanity would be for Robots to withdraw from society altogether.  Meantime, in New Wave stories such as Harlan Ellison's "I Have No Mouth and I Must Scream" (which was definitely intended to shock and probably doesn't hold up well today) and others, we got a far more apocalyptic version of what can go wrong with AI.  The New Wave was, of course, followed by cyberpunk, in which AI and ubiquitous technology almost always have far more complicated, ambiguous effects on society.  So pretty much every possible future has been sketched out, from AI becoming the God of Genesis to apocalyptic extermination of humanity, and I have read a lot of it.  I even recently reread _Frankenstein_, which unless you have read it is definitely not what you think it is.  It really should be required reading for everyone in technology -- or even, just everyone.
+
+I'm not old enough to remember when computers were called "electronic brains", but I played with a version of Eliza (hand-typed from a book), and I am old enough to remember when chess-playing programs transitioned from signs of incipient intelligence to just something computers do.  Likewise, early image recognition programs (a friend of mine worked on a visual fruit sorter shortly after we gradauted from college, and a company I used to work for built a system for visual inspection of computer chips) and voice recognition systems were considered AI, albeit with limited success.  A couple of friends and I even played with neural networks in a class project back in 1986, when taking Richard Feynman's class "Potentialities and Limitations of Computing Machines".  (Feynman, Carver Mead and John Hopfield co-taught an earlier version of that class.  The chain reaction radiation off of those three in one place probably changed the DNA of the students.)  In those days, neural nets were at best toys, but a lot of energy was invested in expert systems and rule-based, structured knowledge bases like Cyc.  In later years, even the techniques used in unstructured web search were based on techniques from what is called GOFAI, good, old-fashioned artificial intelligence.  And yet, somehow, all of that failed to prepare us for the impact of deep learning-based systems.
+
+In the last few years, I have also spent a fair amount of time reading modern AI-relevant and tech society-relevant nonfiction books such as Bostrom's _Superintelligence_ (which should be read with a grain of salt, but lays out an interesting framework in its early chapters), Olson's _Supremacy: AI, ChatGPT, and the Race that will Change the World_, Ford's _Machines of Loving Grace_, Russell's _Human Compatible_, Mitchell's _	
+Artificial Intelligence: A Guide for Thinking Humans_, and even Kissinger and Schmidt's _Genesis_ (a book I highly disrecommend as derivative and not insightful, even leaving aside my opinion of the men) and some that are only peripherally about AI, such as Becker's _More Everything_, Zakaria's _Age of Revolutions_ (which gets a lot of the history of tech wrong), and Epstein's _Tech Agnostic_.  I also read some very early criticism of whether or not AI would ever really work, _What Computers Still Can't Do: A Critique of Artificial Reason_, by Hubert L. Dreyfus.  Out of all of these books, the single most important one I have read is Merchant's _Blood in the Machine_.
+
+So, I have spent fifty years reading about and thinking about a future (or a Now), both positive and negative, in which AI arrives.  And yet, somehow, it isn't playing out the way I expected, which I suppose was inevitable.  It's also worth pointing out that despite this half century of exposure to the issues, it's also inevitable that I am behind the leading edge in this field, and also that everything is evolving rapidly.  As Dave Farber likes to point out, the principles may stay the same, but the technology, business and societal environments change, so the right answer can also change.
+
+With all of that prologue, let's look at the state of "AI", and its plusses and minuses.
+
+Fundamentally, a current-generation AI (i.e., LLM) doesn't find a _true_ answer, it synthesizes something that _looks plausible_.  That is its only metric.  A while back, I asked one for a biography of me, and it didn't even get my universities right, although it did report some plausible-looking results.  Current LLMs have no notion of true or false, just plausible or not-plausible as words.
+
+There are downsides to the use of AI from multiple points of view: the pragmatic concerns for both the user and the instructor, the problems as a researcher and as a manager, and the moral and ethical issues.  We will address those next.
+
+## Concerns
+
+### Concerns You Should Have as a User
+
+The pragramatic concerns from the user's side (the downside):
+
+1. the harder the question, the wronger the answer.
+2. learning & retention are (seem to be?) impaired
+3. inappropriate dependency develops
+4. it's never (at least currently) localized
+5. it can't read your mind
+6. it can't do math
+
+Let's look at those in a little more detail.
+
+(1.) On the harder the question, the wronger the answer: this seems to be inherent in the way public AIs are trained.  They are trained on publicly available data on the Internet, but for hard questions there is a lot of bad information out there.  So, the AIs are learning the wrong things, which they will then teach you.  (This may change as AIs are trained on more carefully curated datasets, but IMO getting them better grounded in reality will require some new innovations.)
+
+Similarly, as you know, present-day systems have a tendency to "hallucinate" (translation: make up wrong answers).  Researchers are working hard to eliminate this, but it won't fully solve the above problems.
+
+(2.) When you ask an AI to do something _for_ you, then you don't develop the skills. You also don't remember what you learn.  Having an AI do the work for you is no better than having a friend do it for you.
+
+
+(3.) "I couldn't do my homework, ChatGPT was down!" 'Nuff said.
+
+(4.) Many of the things we do involve local information such as e.g. the names of machines we use, which the AI doesn't know.
+
+(5.) When you ask it to create an outline or a summary of something, or to extend or refine something you are creating, it usually doesn't do what _you_ would do if you did the work yourself, and so your own ideas and opinions get lost.
+
+(6.) The math example is a good one: again, it doesn't generate something true, just something plausible.  There was a lot of humor as early image generation programs created images of people with six fingers and worse, but the problem extended to basic abstract mathematics, as well.  This is one that is being "solved" by special-casing the systems to recognize mathematics questions and send them to a separate engine.  But een as the AIs themselves learn to do math, this will get better, but having an AI do basic math for you will cost millions or maybe billions of times as much energy as a well-tuned program for the specific purpose.  (More on that below.)
+
+For these reasons, you as a user or student should be very cautious about whether the answers you are getting are right, and whether or not you are learning what you need to learn (and are expected to learn).
+
+### Concerns I Have as an Instructor
+
+The pragmatic concerns from the instructor's side:
+
+1. It's hard to evaluate where you are developmentally.
+2. It results in unfair _appearance_ of development by those who are using AI v. those who aren't.
+
+The basic assumption in evaluating written work by students is that the work _was done by the student_.  This means we faculty have to reevaluate how we assess student development.
+
+_Of course_ it's okay to use new tools for learning, and if that means that you learn faster or better, that's great! Then everyone should adopt it. However, if it's financially burdensome, then it becomes just another way in which economically privileged students have an advantage over others, which is a concern for us as a university, where we aim to provide the best education for all of our students.
+
+### Concerns We Should All Have as Researchers
+
+As a researcher:
+
+1. Plagiarism.
+2. Leaking or outright theft of your ideas/data.
+
+**Plagiarism is a very big deal**.  I believe that LLMs are copying substantial blocks of text from other research papers and websites when used in writing research papers, even when told not to, and especially when used as a translator.  If you submit a research paper that is found to have plagiarized others, whether or not you wrote the offending sections directly, it can have dire consequences for you and even for the university.  Worst case, we could be forced to return research funds to the funding agency and be banned from receiving more, and be banned from submitting papers to a specific journal.  _You are ultimately responsible for what goes out with your name on it._
+
+### Concerns for Managers/Businesspeople
+
+As a manager/businessperson:
+
+1. As of today, one estimate has found that 95% of AI projects result in no benefit to the company.
+2. Code developed in large part by AIs is resulting in a lot of "technical debt", especially unanticipated security issues.
+3. Loss of control: dependence on tools over which you have limited control.
+
+There have been anecdotal reports, for example, that major companies have forced their employees to use AIs, but the employees are finding them less than helpful.  This situation could change, if the developers can gain feedback that helps them make the AIs better.
+
+The last point represents a serious business risk. What happens when your provider changes the AI in ways that affect output you depend on, or worse, they go out of business?  Can you tolerate that?
+
+
+### Moral and Ethical Issues
+
+1. Excessive consumption of energy.
+2. Distortion of semiconductor market
+3. Theft of intellectual property (and loss of revenue).
+4. Bias (e.g., against Black people when evaluating creditworthiness; Musk's current efforts to get Grok to reflect his own personal political bias)
+5. Are we as a society ready to put many people (including artists, who often already have a marginal economic life) out of work?
+
+On the theft of IP, are you willing to be on _either_ end of that?
+
+## The Plusses
+
+All of that said, there are some obvious reasons that AI is attracting a lot of positive attention.
+
+1. Sometimes, it does a pretty good job of synthesizing a summary of a set of documents or other work.
+2. It can help you sketch out code more quickly.
+3. Sometimes, when doing either of the above, it brings a new perspective or piece of information you didn't know about or hadn't thought of.
+4. Its written English is usually clear and grammatically correct (although with a bland personality unless you instruct it otherwise, and a synthetic one that isn't you in any case).
+5. It can turn quickly-written phrases or bullet points into more fleshed-out descriptions (if not always exactly what you wanted).
+6. It can bring structure to an otherwise unstructured set of data fairly quickly; note the failure of Cyc to organize all of human knowledge.
+7. All of us (including me) use online translation tools; the quality of those is increasing rapidly, thanks to LLMs.  (If you are reading this in Japanese or another language, it was probably translated using an LLM, either explicitly or implicitly.)
+
+One of my most valued colleagues says, paraphrasing, "It's the next generation of tool, we really should give students the experience of using it and working with it; that will make them more valuable on the job market."
+
+## Rules
+
+So in light of the above, what kind of specific policy rules can we put in place?
+
+0. Disclose _all_ use of AI, in detail.
+1. Do not share your personal or private information with an AI.
+2. Do not submit anything created by an AI.  Your submissions are to be _your work_.
+
+
+## Caveats and Concluding Remarks
+
+As noted at the beginning, I personally am being a little slow to work with the AIs/LLMs, so my opinion is not as fully informed as it could be.  Moreover, _my opinion will likely change as the technology changes and my understanding grows_.  But this is my best effort as of today.
+
+In minor remarks, this desperately needs references, which I will add when I can.
+
+## History
+
+* 2025/10/20: Version 1.
