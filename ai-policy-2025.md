@@ -116,8 +116,19 @@ One of my most valued colleagues says, paraphrasing, "It's the next generation o
 
 So in light of the above, what kind of specific policy rules can we put in place?
 
+### Rules for All
+
 0. Disclose _all_ use of AI, in detail.
+
+### Rules for Humans
+
 1. Do not share your personal or private information with an AI.
+
+### Rules for Learners
+
+2. Do not submit anything created by an AI.  Your submissions are to be _your work_.
+### Rules for Researchers
+
 2. Do not submit anything created by an AI.  Your submissions are to be _your work_.
 
 
@@ -130,3 +141,4 @@ In minor remarks, this desperately needs references, which I will add when I can
 ## History
 
 * 2025/10/20: Version 1.
+* 2025/10/21: Restructure rules, all AI essays sound the same.
