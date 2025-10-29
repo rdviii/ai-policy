@@ -118,7 +118,10 @@ So in light of the above, what kind of specific policy rules can we put in place
 
 ### Rules for All
 
+-1. _Think_ 
 0. Disclose _all_ use of AI, in detail.
+1. Read _a lot_ -- news, contemporary nonfiction books, SF.
+2. Look for classical solutions when the problem is important.
 
 ### Rules for Humans
 
@@ -127,6 +130,7 @@ So in light of the above, what kind of specific policy rules can we put in place
 ### Rules for Learners
 
 2. Do not submit anything created by an AI.  Your submissions are to be _your work_.
+
 ### Rules for Researchers
 
 2. Do not submit anything created by an AI.  Your submissions are to be _your work_.
