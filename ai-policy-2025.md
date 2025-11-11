@@ -1,10 +1,13 @@
 # Artificial Intelligence (AI) Policy for the AQUA Research Group, Quantum Information Processing, and Quantum Internet (Fall 2025)
+Rod Van Meter, incorporating some suggested text from Andrew Todd
 
-I am definitely not an anti-technologist (as evidenced by my career choices), but that doesn't mean I always instantly and unquestioningly accept every new thing that comes down the highway.  (In fact, I'm often kind of slow to adopt new technology into my daily workflow.)  As I have gotten older (and more experienced, if not actually wiser), I have come to see that technology is not always an automatic good for society.  (This is one of the driving reasons for the creation of the Keio Cyber Civilization Research Center.)  Artificial intelligence (AI), in its current instantiation, warrants a great deal of caution as we approach (or have already reached?) widespread use.  Let me spend some time explaining my opinion before laying down some actionable rules.
+[**"AI is a tool to delegate tasks, not understanding"**](https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-02-jaime-jimenez-01) Jaime Jiménez, RASPRG at IETF 124, Nov. 2025
 
-## My Own Thoughts: Principles and History
+I am definitely not an anti-technologist (as evidenced by my career choices), but that doesn't mean I always instantly and unquestioningly accept every new thing that comes down the highway.  (In fact, I'm often kind of slow to adopt new technology into my daily workflow.)  As I have gotten older (and more experienced, if not actually wiser), I have come to see that technology is not always an automatic good for society.  (This is one of the driving reasons for the creation of the [Keio Cyber Civilization Research Center](https://www.ccrc.keio.ac.jp/).)  Artificial intelligence (AI), in its current instantiation, warrants a great deal of caution as we approach (or have already reached?) widespread use.  Let me spend some time explaining my opinion before laying down some actionable rules.
 
-I have been reading science fiction for about half a century now, starting with all of the Isaac Asimov I could get my hands on, which involved a lot of stories about robots (i.e., embodied AI).  (Mild spoiler alerts, if you care about such things for half-century old stories.)  Many of those stories worked from the assumption that robots and AI would be beneficial, and simply tried to work out quirks of the technology and the logic robots would follow (notably Asimov's Laws), though the distaste of the human protagonist for his robot partner in the R. Daneel Olivaw novels left an impression on me.  A little more disturbing is Jack Williamson's "With Folded Hands", in which robots "protect" humans from doing almost anything interesting in the name of protecting them from harm.  Following that thread to a different logical conclusion, in the 1980s Asimov retconned a connection between his not-so-far-future robot stories and his Foundation space opera universe (which had no robots), via the interesting plot device of robots collectively deciding that the best thing for Humanity would be for Robots to withdraw from society altogether.  Meantime, in New Wave stories such as Harlan Ellison's "I Have No Mouth and I Must Scream" (which was definitely intended to shock and probably doesn't hold up well today) and others, we got a far more apocalyptic version of what can go wrong with AI.  The New Wave was, of course, followed by cyberpunk, in which AI and ubiquitous technology almost always have far more complicated, ambiguous effects on society.  So pretty much every possible future has been sketched out, from AI becoming the God of Genesis to apocalyptic extermination of humanity, and I have read a lot of it.  I even recently reread _Frankenstein_, which unless you have read it is definitely not what you think it is.  It really should be required reading for everyone in technology -- or even, just everyone.
+## Prologue: My Own Thoughts -- Principles and History
+
+I have been reading science fiction for about half a century now, starting with all of the Isaac Asimov I could get my hands on, which involved a lot of stories about robots (i.e., embodied AI).  (Mild spoiler alerts, if you care about such things for half-century old stories.)  Many of those stories worked from the assumption that robots and AI would be beneficial, and simply tried to work out quirks of the technology and the logic robots would follow (notably Asimov's [Three Laws of Robotics](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)), though the distaste of the human protagonist for his robot partner in the R. Daneel Olivaw novels left an impression on me.  A little more disturbing is Jack Williamson's "With Folded Hands", in which robots "protect" humans from doing almost anything interesting in the name of protecting them from harm.  Following that thread to a different logical conclusion, in the 1980s Asimov retconned a connection between his not-so-far-future robot stories and his Foundation space opera universe (which had no robots), via the interesting plot device of robots collectively deciding that the best thing for Humanity would be for Robots to withdraw from society altogether.  Meantime, in New Wave stories such as Harlan Ellison's "I Have No Mouth and I Must Scream" (which was definitely intended to shock and probably doesn't hold up well today) and others, we got a far more apocalyptic version of what can go wrong with AI.  The New Wave was, of course, followed by cyberpunk, in which AI and ubiquitous technology almost always have far more complicated, ambiguous effects on society.  So pretty much every possible future has been sketched out, from AI becoming the God of Genesis to apocalyptic extermination of humanity, and I have read a lot of it.  I even recently reread _Frankenstein_, which unless you have read it is definitely not what you think it is.  It really should be required reading for everyone in technology -- or even, just everyone.
 
 I'm not old enough to remember when computers were called "electronic brains", but I played with a version of Eliza (hand-typed from a book), and I am old enough to remember when chess-playing programs transitioned from signs of incipient intelligence to just something computers do.  Likewise, early image recognition programs (a friend of mine worked on a visual fruit sorter shortly after we gradauted from college, and a company I used to work for built a system for visual inspection of computer chips) and voice recognition systems were considered AI, albeit with limited success.  A couple of friends and I even played with neural networks in a class project back in 1986, when taking Richard Feynman's class "Potentialities and Limitations of Computing Machines".  (Feynman, Carver Mead and John Hopfield co-taught an earlier version of that class.  The chain reaction radiation off of those three in one place probably changed the DNA of the students.)  In those days, neural nets were at best toys, but a lot of energy was invested in expert systems and rule-based, structured knowledge bases like Cyc.  In later years, even the techniques used in unstructured web search were based on techniques from what is called GOFAI, good, old-fashioned artificial intelligence.  And yet, somehow, all of that failed to prepare us for the impact of deep learning-based systems.
 
@@ -16,7 +19,21 @@ With all of that prologue, let's look at the state of "AI", and its plusses and 
 
 Fundamentally, a current-generation AI (i.e., LLM) doesn't find a _true_ answer, it synthesizes something that _looks plausible_.  That is its only metric.  A while back, I asked one for a biography of me, and it didn't even get my universities right, although it did report some plausible-looking results.  Current LLMs have no notion of true or false, just plausible or not-plausible as words.
 
+
+## The Plusses
+
+All of that said, there are some obvious reasons that AI is attracting a lot of positive attention.
+
+1. Sometimes, it does a pretty good job of synthesizing a summary of a set of documents or other work.
+1. It can help you sketch out code more quickly.
+1. Sometimes, when doing either of the above, it brings a new perspective or piece of information you didn't know about or hadn't thought of.
+1. Its written English is usually clear and grammatically correct (although with a bland personality unless you instruct it otherwise, and a synthetic one that isn't you in any case).
+1. It can turn quickly-written phrases or bullet points into more fleshed-out descriptions (if not always exactly what you wanted).
+1. It can bring structure to an otherwise unstructured set of data fairly quickly; note the failure of Cyc to organize all of human knowledge.
+1. All of us (including me) use online translation tools; the quality of those is increasing rapidly, thanks to LLMs.  (If you are reading this in Japanese or another language, it was probably translated using an LLM, either explicitly or implicitly.)
+
 There are downsides to the use of AI from multiple points of view: the pragmatic concerns for both the user and the instructor, the problems as a researcher and as a manager, and the moral and ethical issues.  We will address those next.
+
 
 ## Concerns
 
@@ -75,6 +92,8 @@ As a researcher:
 
 **Plagiarism is a very big deal**.  I believe that LLMs are copying substantial blocks of text from other research papers and websites when used in writing research papers, _even when told not to_.  If you submit a research paper that is found to have plagiarized others, whether or not you wrote the offending sections directly, it can have dire consequences for you and even for the university.  Worst case, we could be forced to return research funds to the funding agency and be banned from receiving more, and be banned from submitting papers to a specific journal.  _You are ultimately responsible for what goes out with your name on it._
 
+https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php
+
 ### Concerns for Managers/Businesspeople
 
 As a manager/businessperson:
@@ -91,41 +110,37 @@ The last point represents a serious business risk. What happens when your provid
 ### Moral and Ethical Issues
 
 1. Excessive consumption of energy.
-2. Distortion of semiconductor market
-3. Theft of intellectual property (and loss of revenue).
-4. Bias (e.g., against Black people when evaluating creditworthiness; Musk's current efforts to get Grok to reflect his own personal political bias)
-5. Are we as a society ready to put many people (including artists, who often already have a marginal economic life) out of work?
+2. Distortion of semiconductor market https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble
+3. Theft of intellectual property (and loss of revenue). https://www.cbc.ca/news/business/anthropic-ai-copyright-settlement-1.7626707 https://futurism.com/artificial-intelligence/openai-danger-authors-internal-slack-messages
+4. Undocumented bias (e.g., against Black people when evaluating creditworthiness; Musk's current efforts to get Grok to reflect his own personal political bias)
+5. Are we as a society ready to put many people (including artists, who often already have a marginal economic life) out of work? 
+6. Possible suicide ideation and encouragement. https://arstechnica.com/ai/2025/10/openai-data-suggests-1-million-users-discuss-suicide-with-chatgpt-weekly/ https://apnews.com/article/openai-chatgpt-lawsuit-suicide-56e63e5538602ea39116f1904bf7cdc3# https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis
 
 On the theft of IP, are you willing to be on _either_ end of that?
 
-## The Plusses
 
-All of that said, there are some obvious reasons that AI is attracting a lot of positive attention.
-
-1. Sometimes, it does a pretty good job of synthesizing a summary of a set of documents or other work.
-2. It can help you sketch out code more quickly.
-3. Sometimes, when doing either of the above, it brings a new perspective or piece of information you didn't know about or hadn't thought of.
-4. Its written English is usually clear and grammatically correct (although with a bland personality unless you instruct it otherwise, and a synthetic one that isn't you in any case).
-5. It can turn quickly-written phrases or bullet points into more fleshed-out descriptions (if not always exactly what you wanted).
-6. It can bring structure to an otherwise unstructured set of data fairly quickly; note the failure of Cyc to organize all of human knowledge.
-7. All of us (including me) use online translation tools; the quality of those is increasing rapidly, thanks to LLMs.  (If you are reading this in Japanese or another language, it was probably translated using an LLM, either explicitly or implicitly.)
-
-One of my most valued colleagues says, paraphrasing, "It's the next generation of tool, we really should give students the experience of using it and working with it; that will make them more valuable on the job market."
-
-## Rules
+## Rules and Recommendations
 
 So in light of the above, what kind of specific policy rules can we put in place?
 
-### Rules for All
+### Recommendations for All Humans
 
--1. _Think_ 
-0. Disclose _all_ use of AI, in detail.
+(Here, I can't really say _rules_; whether you apply these is really up to you.)
+
+1. _Think_.
+1. Disclose _all_ use of AI, in detail.
+1. Do not share your personal or private information with an AI.
 1. Read _a lot_ -- news, contemporary nonfiction books, SF.
-2. Look for classical solutions when the problem is important.
+1. Look for classical solutions when the problem is important.
 
 ### Rules for Humans
 
-1. Do not share your personal or private information with an AI.
+
+### Recommendations for Instructors
+
+One of my most valued colleagues says, paraphrasing, "Just like the Internet thirty years ago, AI is the next generation of tool, we really should give students the experience of using it and working with it; that will make them more valuable on the job market."
+
+https://zenodo.org/records/17065099
 
 ### Rules for Learners
 
