@@ -3,7 +3,11 @@ Rod Van Meter, incorporating some suggested text from Andrew Todd
 
 [**"AI is a tool to delegate tasks, not understanding"**](https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-02-jaime-jimenez-01) Jaime Jiménez, RASPRG at IETF 124, Nov. 2025
 
-I am definitely not an anti-technologist (as evidenced by my career choices), but that doesn't mean I always instantly and unquestioningly accept every new thing that comes down the highway.  (In fact, I'm often kind of slow to adopt new technology into my daily workflow.)  As I have gotten older (and more experienced, if not actually wiser), I have come to see that technology is not always an automatic good for society.  (This is one of the driving reasons for the creation of the [Keio Cyber Civilization Research Center](https://www.ccrc.keio.ac.jp/).)  Artificial intelligence (AI), in its current instantiation, warrants a great deal of caution as we approach (or have already reached?) widespread use.  Let me spend some time explaining my opinion before laying down some actionable rules.
+This is a set of guidelines for [my research group](https://aqua.sfc.wide.ad.jp/) and the classes I am teaching at [Keio's Shonan Fujisawa Campus](https://www.sfc.keio.ac.jp/). These guidelines supplement the ITC [Guideline for Generative AI Usage at Keio University](https://www.itc.keio.ac.jp/en/software_ai_guideline.html).
+
+Artificial intelligence (AI), in its current instantiation, warrants a great deal of caution as AI achieves widespread use.  It is perhaps the most transformative information technology of our generation, in terms of the impact on society and how humans go about their daily lives, likely even moreso than our own research area of quantum computing and communications. Let me spend some time explaining my opinion and how I arrived at it before laying down some actionable rules.  I hope this will help group members and students to not only understand _what_ to do and not do, but also _why_, and to develop their own mental framework that will stand them in good stead for some time to come.
+
+I am definitely not an anti-technologist (as evidenced by my career choices), but that doesn't mean I always instantly and unquestioningly accept every new thing that comes down the highway.  (In fact, I'm often kind of slow to adopt new technology into my daily workflow.)  As I have gotten older (and more experienced, if not actually wiser), I have come to see that technology is not always an automatic good for society.  (This is one of the driving reasons for the creation of the [Keio Cyber Civilization Research Center](https://www.ccrc.keio.ac.jp/).)
 
 ## Prologue: My Own Thoughts -- Principles and History
 
@@ -22,24 +26,36 @@ Fundamentally, a current-generation AI (i.e., LLM) doesn't find a _true_ answer,
 
 ## The Plusses
 
-All of that said, there are some obvious reasons that AI is attracting a lot of positive attention.
+There are some obvious reasons that AI is attracting a lot of positive attention.
 
 1. Sometimes, it does a pretty good job of synthesizing a summary of a set of documents or other work.
 1. It can help you sketch out code more quickly.
 1. Sometimes, when doing either of the above, it brings a new perspective or piece of information you didn't know about or hadn't thought of.
 1. Its written English is usually clear and grammatically correct (although with a bland personality unless you instruct it otherwise, and a synthetic one that isn't you in any case).
 1. It can turn quickly-written phrases or bullet points into more fleshed-out descriptions (if not always exactly what you wanted).
-1. It can bring structure to an otherwise unstructured set of data fairly quickly; note the failure of Cyc to organize all of human knowledge.
+1. It can bring structure to an otherwise unstructured set of data fairly quickly; note the failure of [Cyc](https://en.wikipedia.org/wiki/Cyc) to organize all of human knowledge.
 1. All of us (including me) use online translation tools; the quality of those is increasing rapidly, thanks to LLMs.  (If you are reading this in Japanese or another language, it was probably translated using an LLM, either explicitly or implicitly.)
-
-There are downsides to the use of AI from multiple points of view: the pragmatic concerns for both the user and the instructor, the problems as a researcher and as a manager, and the moral and ethical issues.  We will address those next.
-
 
 ## Concerns
 
-### Concerns You Should Have as a User
+There are downsides to the use of AI from multiple points of view: the pragmatic concerns for both the user and the instructor, the problems as a researcher and as a manager, and the moral and ethical issues.  We will address those in this section.
 
-The pragramatic concerns from the user's side, either as a learner or as an individual:
+### Moral and Ethical Issues
+
+Let's begin with the moral and ethical issues, because they affect as all as individuals and as a society, and therefore underlie all of the other roles discussed below.
+
+1. Excessive consumption of energy.
+2. Distortion of semiconductor market https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble
+3. Theft of intellectual property (and loss of revenue). https://www.cbc.ca/news/business/anthropic-ai-copyright-settlement-1.7626707 https://futurism.com/artificial-intelligence/openai-danger-authors-internal-slack-messages
+4. Undocumented bias (e.g., against Black people when evaluating creditworthiness; Musk's current efforts to get Grok to reflect his own personal political bias)
+5. Are we as a society ready to put many people (including artists, who often already have a marginal economic life) out of work? 
+6. Possible suicide ideation and encouragement. https://arstechnica.com/ai/2025/10/openai-data-suggests-1-million-users-discuss-suicide-with-chatgpt-weekly/ https://apnews.com/article/openai-chatgpt-lawsuit-suicide-56e63e5538602ea39116f1904bf7cdc3# https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis
+
+On the theft of IP, are you willing to be on _either_ end of that?
+
+### Concerns You Should Have as a Learner
+
+The pragramatic concerns from the user's side, either as a learner:
 
 1. The harder the question, the wronger the answer.
 2. Learning & retention are (seem to be?) impaired.
@@ -48,27 +64,27 @@ The pragramatic concerns from the user's side, either as a learner or as an indi
 5. It can't read your mind.
 6. It can't do math.
 7. All AI-generated answers sound the same.
-There are reports of excessive use of AI exacerbating mental health problems.
+8. There are reports of excessive use of AI exacerbating mental health problems.
 
 Let's look at those in a little more detail.
 
-(1.) On the harder the question, the wronger the answer: this seems to be inherent in the way public AIs are trained.  They are trained on publicly available data on the Internet, but for hard questions there is a lot of bad information out there.  So, the AIs are learning the wrong things, which they will then teach you.  (This may change as AIs are trained on more carefully curated datasets, but IMO getting them better grounded in reality will require some new innovations.)
+(1.) **The harder the question, the wronger the answer:** this seems to be inherent in the way public AIs are trained.  They are trained on publicly available data on the Internet, but for hard questions there is a lot of bad information out there.  So, the AIs are learning the wrong things, which they will then teach you.  (This may change as AIs are trained on more carefully curated datasets, but IMO getting them better grounded in reality will require some new innovations.)
 
 Similarly, as you know, present-day systems have a tendency to "hallucinate" (translation: make up wrong answers).  Researchers are working hard to eliminate this, but it won't fully solve the above problems.
 
-(2.) When you ask an AI to do something _for_ you, then you don't develop the skills. You also don't remember what you learn.  Having an AI do the work for you is no better than having a friend do it for you.
+(2.) **Learning & retention are (seem to be?) impaired:** When you ask an AI to do something _for_ you, then you don't develop the skills. You also don't remember what you learn.  Having an AI do the work for you is no better than having a friend do it for you.
 
-(3.) "I couldn't do my homework, ChatGPT was down!" 'Nuff said.
+(3.) **Inappropriate dependency develops:** "I couldn't do my homework, ChatGPT was down!" 'Nuff said.
 
-(4.) Many of the things we do involve local information such as e.g. the names of machines we use, which the AI doesn't know.
+(4.) **It's never (at least currently) localized:** Many of the tasks we do either in class or as homework involve local information such as e.g. the names of machines we use, which the AI doesn't know.
 
-(5.) When you ask it to create an outline or a summary of something, or to extend or refine something you are creating, it usually doesn't do what _you_ would do if you did the work yourself, and so your own ideas and opinions get lost.
+(5.) **It can't read your mind:** When you ask it to create an outline or a summary of something, or to extend or refine something you are creating, it usually doesn't do what _you_ would do if you did the work yourself, and so your own ideas and opinions get lost.
 
-(6.) The math example is a good one: again, it doesn't generate something true, just something plausible.  There was a lot of humor as early image generation programs created images of people with six fingers and worse, but the problem extended to basic abstract mathematics, as well.  This is one that is being "solved" by special-casing the systems to recognize mathematics questions and send them to a separate engine.  But even as the AIs themselves learn to do math, this will get better, but having an AI do basic math for you will cost millions or maybe billions of times as much energy as a well-tuned program for the specific purpose.  (More on that below.)
+(6.) **It can't do math:** again, it doesn't generate something true, just something plausible.  There was a lot of humor as early image generation programs created images of people with six fingers and worse, but the problem extended to basic abstract mathematics, as well.  This is one that is being "solved" by special-casing the systems to recognize mathematics questions and send them to a separate engine.  But even as the AIs themselves learn to do math, this will get better, but having an AI do basic math for you will cost millions or maybe billions of times as much energy as a well-tuned program for the specific purpose.  (More on that below.)
 
-(7.) If you're writing an essay or other original material, don't you want it to stand out?  Faculty friends of mine who spend more time with written essays say that all of the essays they receive that are written by or with the help of an AI sound the same.
+(7.) **All AI-generated answers sound the same:** If you're writing an essay or other original material, don't you want it to stand out?  Faculty friends of mine who spend more time with written essays say that all of the essays they receive that are written by or with the help of an AI sound the same.
 
-(8.) This issue is more of a concern for personal use rather than professional/academic use, but it's worth noting here anyway.  There are reports of mental health issues being exacerbated, including all the way up to chatbots encouraging people to commit suicide.  This issue should not be taken lightly.
+(8.) **There are reports of excessive use of AI exacerbating mental health problems:** This issue is more of a concern for personal use rather than professional/academic use, but it's worth noting here anyway.  There are reports of mental health issues being exacerbated, including all the way up to chatbots encouraging people to commit suicide.  This issue should not be taken lightly.
 
 For these reasons, you as a user or student should be very cautious about whether the answers you are getting are right, and whether or not you are learning what you need to learn (and are expected to learn).
 
@@ -107,16 +123,6 @@ There have been anecdotal reports, for example, that major companies have forced
 The last point represents a serious business risk. What happens when your provider changes the AI in ways that affect output you depend on, or worse, they go out of business?  Can you tolerate that?
 
 
-### Moral and Ethical Issues
-
-1. Excessive consumption of energy.
-2. Distortion of semiconductor market https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble
-3. Theft of intellectual property (and loss of revenue). https://www.cbc.ca/news/business/anthropic-ai-copyright-settlement-1.7626707 https://futurism.com/artificial-intelligence/openai-danger-authors-internal-slack-messages
-4. Undocumented bias (e.g., against Black people when evaluating creditworthiness; Musk's current efforts to get Grok to reflect his own personal political bias)
-5. Are we as a society ready to put many people (including artists, who often already have a marginal economic life) out of work? 
-6. Possible suicide ideation and encouragement. https://arstechnica.com/ai/2025/10/openai-data-suggests-1-million-users-discuss-suicide-with-chatgpt-weekly/ https://apnews.com/article/openai-chatgpt-lawsuit-suicide-56e63e5538602ea39116f1904bf7cdc3# https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis
-
-On the theft of IP, are you willing to be on _either_ end of that?
 
 
 ## Rules and Recommendations
@@ -127,27 +133,25 @@ So in light of the above, what kind of specific policy rules can we put in place
 
 (Here, I can't really say _rules_; whether you apply these is really up to you.)
 
-1. _Think_.
-1. Disclose _all_ use of AI, in detail.
+1. _Think_.  Be mindful of how you use AI.
 1. Do not share your personal or private information with an AI.
 1. Read _a lot_ -- news, contemporary nonfiction books, SF.
 1. Look for classical solutions when the problem is important.
 
-### Rules for Humans
+### Recommendations for Instructors & Mentors
 
-
-### Recommendations for Instructors
-
-One of my most valued colleagues says, paraphrasing, "Just like the Internet thirty years ago, AI is the next generation of tool, we really should give students the experience of using it and working with it; that will make them more valuable on the job market."
+One of my most valued colleagues says, paraphrasing, "Just like the Internet thirty years ago, AI is the next generation of tool. We really should give students the experience of using it and working with it; that will make them more valuable on the job market."
 
 https://zenodo.org/records/17065099
 
 ### Rules for Learners
 
+1. Disclose _all_ use of AI, in detail.
 2. Do not submit anything created by an AI.  Your submissions are to be _your work_.
 
 ### Rules for Researchers
 
+1. Disclose _all_ use of AI, in detail.
 2. Do not submit anything created by an AI.  Your submissions are to be _your work_.
 
 
@@ -161,3 +165,4 @@ In minor remarks, this desperately needs references, which I will add when I can
 
 * 2025/10/20: Version 1.
 * 2025/10/21: Restructure rules, all AI essays sound the same.
+* 2025/11/12: Some progress on reformatting and reorganizing, but update to rules themselves still pending.
