@@ -1,5 +1,5 @@
 # Artificial Intelligence (AI) Policy for the AQUA Research Group, Quantum Information Processing, and Quantum Internet (Fall 2025)
-Rod Van Meter, incorporating suggested text on rules and examples from Andrew Todd
+Rod Van Meter, incorporating and adapting suggested text on rules and examples from Andrew Todd (though I take responsibility for the current draft; Andrew has not endorsed this yet)
 
 [**"AI is a tool to delegate tasks, not understanding"**](https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-02-jaime-jimenez-01) Jaime Jiménez, RASPRG at IETF 124, Nov. 2025
 
@@ -21,10 +21,15 @@ In the last few years, I have also spent a fair amount of time reading modern AI
 
 So, I have spent fifty years reading about and thinking about a future (or a Now), both positive and negative, in which AI arrives.  And yet, somehow, it isn't playing out the way I expected, which I suppose was inevitable.  It's also worth pointing out that despite this half century of exposure to the issues, it's also inevitable that I am behind the leading edge in this field, and also that everything is evolving rapidly.  As Dave Farber likes to point out, the principles may stay the same, but the technology, business and societal environments change, so the right answer can also change.
 
+## What is AI?
+
 With all of that prologue, let's look at the state of "AI", and its plusses and minuses.
 
 Fundamentally, a current-generation AI (i.e., LLM) doesn't find a _true_ answer, it synthesizes something that _looks plausible_.  That is its only metric.  A while back, I asked one for a biography of me, and it didn't even get my universities right, although it did report some plausible-looking results.  Current LLMs have no notion of true or false, just plausible or not-plausible as words.
 
+Researchers are, of course, working on improving AIs, including the lab and company (companies?) of Fei-Fei Li at Stanford; a quick search will turn up lots of things, some of them [recent](https://www.forbes.com/sites/geekgirlrising/2025/11/20/fei-fei-li-ushers-in-ais-next-frontier-spatial-intelligence/) about their work in what she calls "spatial intelligence".  Spatial intelligence will require a certain level of ground truth.
+
+(Needs to differentiate among key types of AIs, especially LLMs and generative AIs versus basic image classifiers.)
 
 ## The Plusses
 
@@ -50,8 +55,10 @@ Let's begin with the moral and ethical issues, because they affect as all as ind
 2. Distortion of semiconductor market https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble
 3. Theft of intellectual property (and loss of revenue). https://www.cbc.ca/news/business/anthropic-ai-copyright-settlement-1.7626707 https://futurism.com/artificial-intelligence/openai-danger-authors-internal-slack-messages
 4. Undocumented bias (e.g., against Black people when evaluating creditworthiness; Musk's current efforts to get Grok to reflect his own personal political bias)
-5. Are we as a society ready to put many people (including artists, who often already have a marginal economic life) out of work? 
+5. Are we as a society ready to put many people ([including artists](https://www.linkedin.com/posts/amandagautierillustration_ai-is-everywhere-in-general-as-many-other-activity-7399031648539021312-WkJO/), who often already have a marginal economic life) out of work? 
 6. Possible suicide ideation and encouragement. https://arstechnica.com/ai/2025/10/openai-data-suggests-1-million-users-discuss-suicide-with-chatgpt-weekly/ https://apnews.com/article/openai-chatgpt-lawsuit-suicide-56e63e5538602ea39116f1904bf7cdc3# https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis
+7. It may also produce inaccurate renderings and information when such things matter, [like in a medical setting](https://www.linkedin.com/posts/amandagautierillustration_ai-is-everywhere-in-general-as-many-other-activity-7399031648539021312-WkJO/).
+
 
 On the theft of IP, are you willing to be on _either_ end of that?
 
@@ -113,7 +120,7 @@ As a researcher:
 
 **Incorrect research.**  Note that this includes [hallucinated citations](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php)
 
-**Loss of your original work.** "White hat" hackers have shown that it is possible to [convince a chatbot to reveal data](https://news.uoguelph.ca/2025/08/ai-chatbots-are-giving-away-your-companys-data/) that it has learned through what is supposed a secret conversation.  I haven't checked, but I'm sure that the AI companies' user agreements promise that they won't share your secret info, but confirming this is harder than for ordinary classical systems.
+**Leakage of your original work.** "White hat" hackers have shown that it is possible to [convince a chatbot to reveal data](https://news.uoguelph.ca/2025/08/ai-chatbots-are-giving-away-your-companys-data/) that it has learned through what is supposed a secret conversation.  I haven't checked, but I'm sure that the AI companies' user agreements promise that they won't share your secret info, but confirming this is harder than for ordinary classical systems.
 
 Microsoft has also [recently found](https://www.microsoft.com/en-us/security/blog/2025/11/07/whisper-leak-a-novel-side-channel-cyberattack-on-remote-language-models/) that there are additional side channel attacks, but that seems inevitable; ordinary non-AI systems also have vulnerabilities found on a regular basis.
 
@@ -136,13 +143,25 @@ The last point represents a serious business risk. What happens when your provid
 
 So in light of the above, what kind of specific policy rules can we put in place?
 
+### Principles
+
+First, this policy recognizes that AI tools can be very helpful. This policy does not forbid the use of AI.
+society cannot function without mutual respect for others. 
+
+Misrepresenting AI-generated work as your own demonstrates:
+
+* A lack of respect for yourself: you are not allowing yourself to learn effectively.
+* A lack of respect for other students: you are making it difficult to understand what students are actually accomplishing, and how they are struggling.
+* A lack of respect for your teachers: your teachers want to understand your challenges and help you develop as a person; they do not want to be fed work generated by an AI.
+
 ### Recommendations for All Humans
 
 (Here, I can't really say _rules_; whether you apply these is really up to you.)
 
 1. _Think_.  Be mindful of how you use AI.
-1. Do not share your personal or private information with an AI.
 1. Read _a lot_ -- news, contemporary nonfiction books, SF.
+1. Do not share your personal or private information with an AI.
+1. Do not use an AI as a counselor or therapist.
 1. Look for classical solutions when the problem is important.
 
 ### Recommendations for Instructors & Mentors
@@ -154,7 +173,7 @@ https://zenodo.org/records/17065099
 ### Rules for Learners
 
 1. Disclose _all_ use of AI, in detail.
-2. Do not submit anything created by an AI.  Your submissions are to be _your work_.
+2. Do not submit anything directly created by an LLM.  Your submissions are to be _your work_.
 
 ### Rules for Researchers
 
@@ -235,6 +254,14 @@ I know this is the core of what this document is about, but this aspect is movin
 1. Nataliya Kosmyna, Eugene Hauptmann, Ye Tong Yuan, Jessica Situ, Xian-Hao Liao, Ashly Vivian Beresnitzky, Iris Braunstein, Pattie Maes, [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/abs/2506.08872)
 1. Lucy Osler, [Hallucinating with AI: AI Psychosis as Distributed Delusions
 ](https://arxiv.org/abs/2508.19588)
+1. [Pope Leo: AI must reflect the design of God the Creator](https://www.vaticannews.va/en/pope/news/2025-11/pope-leo-xiv-message-builders-ai-forum-ethical-technology.html) (full message [here](https://www.vatican.va/content/leo-xiv/en/messages/pont-messages/2025/documents/20251103-messaggio-builders-aiforum.html))
+
+### Quantum Machine Learning
+
+Given that our research group focuses in quantum computing and communications, it also seems reasonable to invest some effort in learning about quantum machine learning.
+
+1. Francesc Rodríguez-Díaz, David Gutiérrez-Avilés, Alicia Troncoso, Francisco Martínez-Álvarez, [A Survey of Quantum Machine Learning: Foundations, Algorithms, Frameworks, Data and Applications](https://dl.acm.org/doi/10.1145/3764582)
+1. Su Yeon Chang, M. Cerezo, [A Primer on Quantum Machine Learning](https://arxiv.org/abs/2511.15969)
 
 
 ## History
