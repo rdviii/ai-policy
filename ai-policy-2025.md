@@ -62,6 +62,8 @@ Let's begin with the moral and ethical issues, because they affect as all as ind
 
 On the theft of IP, are you willing to be on _either_ end of that?
 
+[MechaHitler](https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content) may be the garish end point of LLM bias, but _every_ system will have some bias.
+
 ### Concerns You Should Have as a Learner
 
 The pragramatic concerns from the user's side, either as a learner:
