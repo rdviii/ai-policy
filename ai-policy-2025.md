@@ -1,17 +1,17 @@
 # Artificial Intelligence (AI) Policy for the AQUA Research Group, Quantum Information Processing, and Quantum Internet (Fall 2025)
-Rod Van Meter, incorporating some suggested text from Andrew Todd
+Rod Van Meter, incorporating suggested text on rules and examples from Andrew Todd
 
 [**"AI is a tool to delegate tasks, not understanding"**](https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-02-jaime-jimenez-01) Jaime Jiménez, RASPRG at IETF 124, Nov. 2025
 
 This is a set of guidelines for [my research group](https://aqua.sfc.wide.ad.jp/) and the classes I am teaching at [Keio's Shonan Fujisawa Campus](https://www.sfc.keio.ac.jp/). These guidelines supplement the ITC [Guideline for Generative AI Usage at Keio University](https://www.itc.keio.ac.jp/en/software_ai_guideline.html).
 
-First, even before we begin, it is important to note that AI is everywhere, and that everyone is already using it all the time.  Speech recognition, voice synthesis, chess-playing programs, image recognition systems, even route planning for your road trip are all, technically, artificial intelligence. So this document is not intended to be a blanket prohibition on its use (otherwise this would be a very short document).
+First, even before we begin, it is important to note that AI is everywhere, and that everyone is already using it all the time.  Speech recognition, voice synthesis, chess-playing programs, image recognition systems, even route planning for your road trip are all, technically, artificial intelligence. This document is not intended to be a blanket prohibition on its use (otherwise this would be a very short document), although there are plenty of academics [arguing in favor of this position](https://zenodo.org/records/17065099).
 
 Artificial intelligence (AI), in its current instantiation, warrants a great deal of caution as AI achieves widespread use.  It is perhaps the most transformative information technology of our generation, in terms of the impact on society and how humans go about their daily lives, likely even moreso than our own research area of quantum computing and communications. Let me spend some time explaining my opinion and how I arrived at it before laying down some actionable rules.  I hope this will help group members and students to not only understand _what_ to do and not do, but also _why_, and to develop their own mental framework that will stand them in good stead for some time to come.
 
 I am definitely not an anti-technologist (as evidenced by my career choices), but that doesn't mean I always instantly and unquestioningly accept every new thing that comes down the highway.  (In fact, I'm often kind of slow to adopt new technology into my daily workflow.)  As I have gotten older (and more experienced, if not actually wiser), I have come to see that technology is not always an automatic good for society.  (This is one of the driving reasons for the creation of the [Keio Cyber Civilization Research Center](https://www.ccrc.keio.ac.jp/).)
 
-## Prologue: My Own Thoughts -- Principles and History
+## Prologue: My Own Thoughts and a Little History
 
 I have been reading science fiction for about half a century now, starting with all of the Isaac Asimov I could get my hands on, which involved a lot of stories about robots (i.e., embodied AI).  (Mild spoiler alerts, if you care about such things for half-century old stories.)  Many of those stories worked from the assumption that robots and AI would be beneficial, and simply tried to work out quirks of the technology and the logic robots would follow (notably Asimov's [Three Laws of Robotics](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)), though the distaste of the human protagonist for his robot partner in the R. Daneel Olivaw novels left an impression on me.  A little more disturbing is Jack Williamson's "With Folded Hands", in which robots "protect" humans from doing almost anything interesting in the name of protecting them from harm.  Following that thread to a different logical conclusion, in the 1980s Asimov retconned a connection between his not-so-far-future robot stories and his Foundation space opera universe (which had no robots), via the interesting plot device of robots collectively deciding that the best thing for Humanity would be for Robots to withdraw from society altogether.  Meantime, in New Wave stories such as Harlan Ellison's "I Have No Mouth and I Must Scream" (which was definitely intended to shock and probably doesn't hold up well today) and others, we got a far more apocalyptic version of what can go wrong with AI.  The New Wave was, of course, followed by cyberpunk, in which AI and ubiquitous technology almost always have far more complicated, ambiguous effects on society.  So pretty much every possible future has been sketched out, from AI becoming the God of Genesis to apocalyptic extermination of humanity, and I have read a lot of it.  I even recently reread _Frankenstein_, which unless you have read it is definitely not what you think it is.  It really should be required reading for everyone in technology -- or even, just everyone.  And for that matter, one of the concerns is that we lose not only our own skills, but even our ability to understand the systems we ourselves built; in H.G. Wells' _The Time Machine_, the Eloi were in exactly that situation.  It is even a common theme in generation starship stories such as Heinlein's ["Universe"](https://en.wikipedia.org/wiki/Orphans_of_the_Sky).
 
@@ -106,11 +106,16 @@ _Of course_ it's okay to use new tools for learning, and if that means that you 
 As a researcher:
 
 1. Plagiarism.
-2. Leaking or outright theft of your ideas/data.
+1. Improper/incorrect text (including citations).
+1. Leaking or outright theft of your ideas/data.
 
 **Plagiarism is a very big deal**.  I believe that LLMs are copying substantial blocks of text from other research papers and websites when used in writing research papers, _even when told not to_.  If you submit a research paper that is found to have plagiarized others, whether or not you wrote the offending sections directly, it can have dire consequences for you and even for the university.  Worst case, we could be forced to return research funds to the funding agency and be banned from receiving more, and be banned from submitting papers to a specific journal.  _You are ultimately responsible for what goes out with your name on it._
 
-https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php
+**Incorrect research.**  Note that this includes [hallucinated citations](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php)
+
+**Loss of your original work.** "White hat" hackers have shown that it is possible to [convince a chatbot to reveal data](https://news.uoguelph.ca/2025/08/ai-chatbots-are-giving-away-your-companys-data/) that it has learned through what is supposed a secret conversation.  I haven't checked, but I'm sure that the AI companies' user agreements promise that they won't share your secret info, but confirming this is harder than for ordinary classical systems.
+
+Microsoft has also [recently found](https://www.microsoft.com/en-us/security/blog/2025/11/07/whisper-leak-a-novel-side-channel-cyberattack-on-remote-language-models/) that there are additional side channel attacks, but that seems inevitable; ordinary non-AI systems also have vulnerabilities found on a regular basis.
 
 ### Concerns for Managers/Businesspeople
 
@@ -155,12 +160,6 @@ https://zenodo.org/records/17065099
 
 1. Disclose _all_ use of AI, in detail.
 2. Do not submit anything created by an AI.  Your submissions are to be _your work_.
-
-
-## Caveats and Concluding Remarks
-
-As noted at the beginning, I personally am being a little slow to work with the AIs/LLMs, so my opinion is not as fully informed as it could be.  Moreover, _my opinion will likely change as the technology changes and my understanding grows_.  But this is my best effort as of today.
-
 
 ## Examples
 
@@ -212,16 +211,22 @@ However, in the "unacceptable" example, you are misrepresenting AI's work as you
 
 Students found to violate these guidelines will be handled on a case-by-case basis. Some cases may fall under the [university academic misconduct policies](https://www.students.keio.ac.jp/en/sfc/pmei/class/fraud/).
 
+## Caveats and Concluding Remarks
+
+As noted at the beginning, I personally am being a little slow to work with the AIs/LLMs, so my opinion is not as fully informed as it could be.  Moreover, _my opinion will likely change as the technology changes and my understanding grows_.  But this is my best effort as of today.
+
 ## References and Learning More
 
-See also recommendations on my [#QuantumNative Engineer's Bookshelf](https://rdvlivefromtokyo.blogspot.com/2020/05/a-quantumnative-engineers-bookshelf.html).
+See also a couple of recommendations on my [#QuantumNative Engineer's Bookshelf](https://rdvlivefromtokyo.blogspot.com/2020/05/a-quantumnative-engineers-bookshelf.html).
 
 ### The Technology
 
 It seems incumbent on all technologists at this point to have at least a basic grasp of deep learning, LLMs and generative AI. It is all moving insanely fast, so this list will become out of date quickly.
 
 1. Grant Sanderson _et al._, [_Neural Networks_](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) YouTube course on the 3 Blue, 1 Brown channel. (9 videos totalling 3 hours)
+1. [The moment we stopped understanding AI [AlexNet]](https://youtu.be/UZDiGooFs54?si=OLZjaqaAU0P0Itmq). (The title is misleading, it's much more about understanding how NNs learn to understand images.)
 1. Andrew Ng and Kian Katanforoosh, [CS 230](https://cs230.stanford.edu/syllabus/) at Stanford. (10 video lectures, 50-90 minutes each, plus Coursera, plus substantial homework/programming assignments)
+
 
 ### Ethics and Society
 
