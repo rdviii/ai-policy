@@ -257,6 +257,7 @@ I know this is the core of what this document is about, but this aspect is movin
 1. Lucy Osler, [Hallucinating with AI: AI Psychosis as Distributed Delusions
 ](https://arxiv.org/abs/2508.19588)
 1. [Pope Leo: AI must reflect the design of God the Creator](https://www.vaticannews.va/en/pope/news/2025-11/pope-leo-xiv-message-builders-ai-forum-ethical-technology.html) (full message [here](https://www.vatican.va/content/leo-xiv/en/messages/pont-messages/2025/documents/20251103-messaggio-builders-aiforum.html))
+1. [Joanna Bryson](https://www.linkedin.com/in/bryson/)
 
 ### Quantum Machine Learning
 
