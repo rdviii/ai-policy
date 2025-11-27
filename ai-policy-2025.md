@@ -3,15 +3,15 @@ Rod Van Meter, incorporating and adapting suggested text on rules and examples f
 
 [**"AI is a tool to delegate tasks, not understanding"**](https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-02-jaime-jimenez-01) Jaime Jiménez, RASPRG at IETF 124, Nov. 2025
 
-This is a set of guidelines for [my research group](https://aqua.sfc.wide.ad.jp/) and the classes I am teaching at [Keio's Shonan Fujisawa Campus](https://www.sfc.keio.ac.jp/). These guidelines supplement the ITC [Guideline for Generative AI Usage at Keio University](https://www.itc.keio.ac.jp/en/software_ai_guideline.html).
+This is a set of guidelines for [my research group](https://aqua.sfc.wide.ad.jp/) and the classes I am teaching at [Keio's Shonan Fujisawa Campus](https://www.sfc.keio.ac.jp/). These guidelines supplement the ITC [Guideline for Generative AI Usage at Keio University](https://www.itc.keio.ac.jp/en/software_ai_guideline.html).  This document goes far beyond a simple set of rules to follow, and is intended to serve as a basis _for discussion_, to encourage participants to think about and form their own understanding the technology and its rapidly changing role in our society.
 
 First, even before we begin, it is important to note that AI is everywhere, and that everyone is already using it all the time.  Speech recognition, voice synthesis, chess-playing programs, image recognition systems, even route planning for your road trip are all, technically, artificial intelligence. This document is not intended to be a blanket prohibition on its use (otherwise this would be a very short document), although there are plenty of academics [arguing in favor of this position](https://zenodo.org/records/17065099).
 
 Artificial intelligence (AI), in its current instantiation, warrants a great deal of caution as AI achieves widespread use.  It is perhaps the most transformative information technology of our generation, in terms of the impact on society and how humans go about their daily lives, likely even moreso than our own research area of quantum computing and communications. Let me spend some time explaining my opinion and how I arrived at it before laying down some actionable rules.  I hope this will help group members and students to not only understand _what_ to do and not do, but also _why_, and to develop their own mental framework that will stand them in good stead for some time to come.
 
-I am definitely not an anti-technologist (as evidenced by my career choices), but that doesn't mean I always instantly and unquestioningly accept every new thing that comes down the highway.  (In fact, I'm often kind of slow to adopt new technology into my daily workflow.)  As I have gotten older (and more experienced, if not actually wiser), I have come to see that technology is not always an automatic good for society.  (This is one of the driving reasons for the creation of the [Keio Cyber Civilization Research Center](https://www.ccrc.keio.ac.jp/).)
-
 ## Prologue: My Own Thoughts and a Little History
+
+I am definitely not an anti-technologist (as evidenced by my career choices), but that doesn't mean I always instantly and unquestioningly accept every new thing that comes down the highway.  (In fact, I'm often kind of slow to adopt new technology into my daily workflow.)  As I have gotten older (and more experienced, if not actually wiser), I have come to see that technology is not always an automatic good for society.  (This is one of the driving reasons for the creation of the [Keio Cyber Civilization Research Center](https://www.ccrc.keio.ac.jp/).)
 
 I have been reading science fiction for about half a century now, starting with all of the Isaac Asimov I could get my hands on, which involved a lot of stories about robots (i.e., embodied AI).  (Mild spoiler alerts, if you care about such things for half-century old stories.)  Many of those stories worked from the assumption that robots and AI would be beneficial, and simply tried to work out quirks of the technology and the logic robots would follow (notably Asimov's [Three Laws of Robotics](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)), though the distaste of the human protagonist for his robot partner in the R. Daneel Olivaw novels left an impression on me.  A little more disturbing is Jack Williamson's "With Folded Hands", in which robots "protect" humans from doing almost anything interesting in the name of protecting them from harm.  Following that thread to a different logical conclusion, in the 1980s Asimov retconned a connection between his not-so-far-future robot stories and his Foundation space opera universe (which had no robots), via the interesting plot device of robots collectively deciding that the best thing for Humanity would be for Robots to withdraw from society altogether.  Meantime, in New Wave stories such as Harlan Ellison's "I Have No Mouth and I Must Scream" (which was definitely intended to shock and probably doesn't hold up well today) and others, we got a far more apocalyptic version of what can go wrong with AI.  The New Wave was, of course, followed by cyberpunk, in which AI and ubiquitous technology almost always have far more complicated, ambiguous effects on society.  So pretty much every possible future has been sketched out, from AI becoming the God of Genesis to apocalyptic extermination of humanity, and I have read a lot of it.  I even recently reread _Frankenstein_, which unless you have read it is definitely not what you think it is.  It really should be required reading for everyone in technology -- or even, just everyone.  And for that matter, one of the concerns is that we lose not only our own skills, but even our ability to understand the systems we ourselves built; in H.G. Wells' _The Time Machine_, the Eloi were in exactly that situation.  It is even a common theme in generation starship stories such as Heinlein's ["Universe"](https://en.wikipedia.org/wiki/Orphans_of_the_Sky).
 
@@ -29,7 +29,20 @@ Fundamentally, a current-generation AI (i.e., LLM) doesn't find a _true_ answer,
 
 Researchers are, of course, working on improving AIs, including the lab and company (companies?) of Fei-Fei Li at Stanford; a quick search will turn up lots of things, some of them [recent](https://www.forbes.com/sites/geekgirlrising/2025/11/20/fei-fei-li-ushers-in-ais-next-frontier-spatial-intelligence/) about their work in what she calls "spatial intelligence".  Spatial intelligence will require a certain level of ground truth.
 
-(Needs to differentiate among key types of AIs, especially LLMs and generative AIs versus basic image classifiers.)
+A very short list of vocabulary you will need (my definitions; would probably be better to pick up commonly accepted ones from somewhere):
+
+* **chatbot:** the common interface to an LLM, with text input from the human and responses from the AI.
+* **classifier:** a type of AI that is used to analyze input and place it into one of a set of known (trained) bins; the canonical example is images of cats v. images of dogs.
+* **GOFAI:** good, old-fashioned AI, i.e. pretty much everything that isn't neural network-based.
+* **GPT:**
+* **genAI (generative AI):**
+* **large language model (LLM):**
+* **machine learning (ML):**
+* **neural network:** a type of AI technique that stores _learned_ information in interconnections and their weights in a multi-layered data structure loosely modeled on networks of neurons.
+* **symbolic or logic AI:** loosely, GOFAI.  Expert systems, many heuristic algorithms, any hand-coded chess-playing program, any hand-structured knowledge base, dedicated theorem provers.  Dominated AI until neural nets were shown to be practical with AlexNet.  For many decades, often programmed in Lisp or Prolog.  Japan's [Fifth Generation System](https://en.wikipedia.org/wiki/Fifth_Generation_Computer_Systems) was an inference engine in this class.
+* transformer
+
+In the rest of this document, if we refer to "AI" without additional qualifiers, it is safe to assume we mean genAI or LLM, as appropriate.
 
 ## The Plusses
 
@@ -40,8 +53,9 @@ There are some obvious reasons that AI is attracting a lot of positive attention
 1. Sometimes, when doing either of the above, it brings a new perspective or piece of information you didn't know about or hadn't thought of.
 1. Its written English is usually clear and grammatically correct (although with a bland personality unless you instruct it otherwise, and a synthetic one that isn't you in any case).
 1. It can turn quickly-written phrases or bullet points into more fleshed-out descriptions (if not always exactly what you wanted).
-1. It can bring structure to an otherwise unstructured set of data fairly quickly; note the failure of [Cyc](https://en.wikipedia.org/wiki/Cyc) to organize all of human knowledge.
+1. It can bring structure to an otherwise unstructured set of data fairly quickly; for example, consider the attempt by one researcher to [reorganize all of the protocol rules in the RFCs](https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-03-jpotvin-rasprg-00). (On the minus side, note the failure of [Cyc](https://en.wikipedia.org/wiki/Cyc) to organize all of human knowledge.)
 1. All of us (including me) use online translation tools; the quality of those is increasing rapidly, thanks to LLMs.  (If you are reading this in Japanese or another language, it was probably translated using an LLM, either explicitly or implicitly.)
+1. Math proofs.
 
 ## Concerns
 
@@ -52,12 +66,13 @@ There are downsides to the use of AI from multiple points of view: the pragmatic
 Let's begin with the moral and ethical issues, because they affect as all as individuals and as a society, and therefore underlie all of the other roles discussed below.
 
 1. Excessive consumption of energy.
-2. Distortion of semiconductor market https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble
-3. Theft of intellectual property (and loss of revenue). https://www.cbc.ca/news/business/anthropic-ai-copyright-settlement-1.7626707 https://futurism.com/artificial-intelligence/openai-danger-authors-internal-slack-messages
-4. Undocumented bias (e.g., against Black people when evaluating creditworthiness; Musk's current efforts to get Grok to reflect his own personal political bias)
-5. Are we as a society ready to put many people ([including artists](https://www.linkedin.com/posts/amandagautierillustration_ai-is-everywhere-in-general-as-many-other-activity-7399031648539021312-WkJO/), who often already have a marginal economic life) out of work? 
-6. Possible suicide ideation and encouragement. https://arstechnica.com/ai/2025/10/openai-data-suggests-1-million-users-discuss-suicide-with-chatgpt-weekly/ https://apnews.com/article/openai-chatgpt-lawsuit-suicide-56e63e5538602ea39116f1904bf7cdc3# https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis
-7. It may also produce inaccurate renderings and information when such things matter, [like in a medical setting](https://www.linkedin.com/posts/amandagautierillustration_ai-is-everywhere-in-general-as-many-other-activity-7399031648539021312-WkJO/).
+1. Distortion of semiconductor market https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble
+1. Theft of intellectual property (and loss of revenue). https://www.cbc.ca/news/business/anthropic-ai-copyright-settlement-1.7626707 https://futurism.com/artificial-intelligence/openai-danger-authors-internal-slack-messages
+1. Undocumented bias (e.g., against Black people when evaluating creditworthiness; Musk's current efforts to get Grok to reflect his own personal political bias)
+1. Are we as a society ready to put many people ([including artists](https://www.linkedin.com/posts/amandagautierillustration_ai-is-everywhere-in-general-as-many-other-activity-7399031648539021312-WkJO/), who often already have a marginal economic life) out of work? 
+1. It may also produce inaccurate information (including images) when such things matter, [like in a medical setting](https://www.linkedin.com/posts/amandagautierillustration_ai-is-everywhere-in-general-as-many-other-activity-7399031648539021312-WkJO/).
+1. Possible suicide ideation and encouragement. https://arstechnica.com/ai/2025/10/openai-data-suggests-1-million-users-discuss-suicide-with-chatgpt-weekly/ https://apnews.com/article/openai-chatgpt-lawsuit-suicide-56e63e5538602ea39116f1904bf7cdc3# https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis
+
 
 
 On the theft of IP, are you willing to be on _either_ end of that?
@@ -104,7 +119,7 @@ For these reasons, you as a user or student should be very cautious about whethe
 The pragmatic concerns from the instructor's side:
 
 1. It's hard to evaluate where you are developmentally.
-2. It results in unfair _appearance_ of development by those who are using AI v. those who aren't.
+1. It results in unfair _appearance_ of development by those who are using AI v. those who aren't.
 
 The basic assumption in evaluating written work by students is that the work _was done by the student_.  This means we faculty have to reevaluate how we assess student development.
 
@@ -131,26 +146,22 @@ Microsoft has also [recently found](https://www.microsoft.com/en-us/security/blo
 As a manager/businessperson:
 
 1. As of today, one estimate has found that 95% of AI projects result in no benefit to the company.
-2. Code developed in large part by AIs is resulting in a lot of "technical debt", especially unanticipated security issues.
-3. Loss of control: dependence on tools over which you have limited control.
+1. Code developed in large part by AIs is resulting in a lot of "technical debt", especially unanticipated security issues.
+1. Loss of control: dependence on tools over which you have limited control.
 
 There have been anecdotal reports, for example, that major companies have forced their employees to use AIs, but the employees are finding them less than helpful.  This situation could change, if the developers can gain feedback that helps them make the AIs better.
 
 The last point represents a serious business risk. What happens when your provider changes the AI in ways that affect output you depend on, or worse, they go out of business?  Can you tolerate that?
 
-
-
-
 ## Rules and Recommendations
 
-So in light of the above, what kind of specific policy rules can we put in place?
+So in light of the above, what kind of specific policy can we put in place?
 
 ### Principles
 
 First, this policy recognizes that AI tools can be very helpful. This policy does not forbid the use of AI.
-society cannot function without mutual respect for others. 
 
-Misrepresenting AI-generated work as your own demonstrates:
+Society cannot function without mutual respect for others.  (See e.g. [the Caltech Honor Code](https://www.admissions.caltech.edu/why-caltech/student-life/honor-code) for a simple statement of this.)  Misrepresenting AI-generated work as your own demonstrates:
 
 * A lack of respect for yourself: you are not allowing yourself to learn effectively.
 * A lack of respect for other students: you are making it difficult to understand what students are actually accomplishing, and how they are struggling.
@@ -170,17 +181,20 @@ Misrepresenting AI-generated work as your own demonstrates:
 
 One of my most valued colleagues says, paraphrasing, "Just like the Internet thirty years ago, AI is the next generation of tool. We really should give students the experience of using it and working with it; that will make them more valuable on the job market."
 
-https://zenodo.org/records/17065099
-
 ### Rules for Learners
 
 1. Disclose _all_ use of AI, in detail.
-2. Do not submit anything directly created by an LLM.  Your submissions are to be _your work_.
+1. Do not submit anything directly created by an LLM.  Your submissions are to be _your work_.
 
 ### Rules for Researchers
 
 1. Disclose _all_ use of AI, in detail.
-2. Do not submit anything created by an AI.  Your submissions are to be _your work_.
+1. Do not submit anything created by an AI.  Your submissions are to be _your work_.
+1. Be aware of and follow policies issued by journals and preprint servers such as [the arXiv](https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/).
+
+### Rules for Managers & Businesspeople
+
+1. Be cognizant of bidirectional contractual rights and responsibilities.
 
 ## Examples
 
@@ -238,21 +252,48 @@ As noted at the beginning, I personally am being a little slow to work with the 
 
 ## References and Learning More
 
-See also a couple of recommendations on my [#QuantumNative Engineer's Bookshelf](https://rdvlivefromtokyo.blogspot.com/2020/05/a-quantumnative-engineers-bookshelf.html).
+Some lightly annotated references.  This is also moving rapidly and will quickly become out of date.  See also a couple of recommendations on my [#QuantumNative Engineer's Bookshelf](https://rdvlivefromtokyo.blogspot.com/2020/05/a-quantumnative-engineers-bookshelf.html).
 
 ### The Technology
 
 It seems incumbent on all technologists at this point to have at least a basic grasp of deep learning, LLMs and generative AI. It is all moving insanely fast, so this list will become out of date quickly.
 
+#### Video Courses, Explainers, and Online Tools
+
 1. Grant Sanderson _et al._, [_Neural Networks_](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) YouTube course on the 3 Blue, 1 Brown channel. (9 videos totalling 3 hours)
 1. [The moment we stopped understanding AI [AlexNet]](https://youtu.be/UZDiGooFs54?si=OLZjaqaAU0P0Itmq). (The title is misleading, it's much more about understanding how NNs learn to understand images.)
 1. Andrew Ng and Kian Katanforoosh, [CS 230](https://cs230.stanford.edu/syllabus/) at Stanford. (10 video lectures, 50-90 minutes each, plus Coursera, plus substantial homework/programming assignments)
+1. Brendan Bycroft, [LLM Visualization](https://bbycroft.net/llm)
 
+#### Technical Books
+
+1. [Artificial Intelligence: A Modern Approach, 2nd ed.]
+1. [Deep Learning]
+1. Stephen Welch, [](http://www.welchlabs.com/resources/ai-book) (Probably.  It's not published yet, but I have no doubt it's going to be excellent.)
+
+#### (A Very Few) Key Technical Papers
+
+The prior century:
+
+1. The perceptron
+1. Eliza
+1. DeepMind
+
+This century:
+
+1. AlexNet
+1. AlphaZero
+1. Attention is All You Need
+1. BERT
+1. AlphaFold?
+1. Checkers is Solved
+1. (something on architectures or performance for AI)
 
 ### Ethics and Society
 
 I know this is the core of what this document is about, but this aspect is moving even faster than the technology, so this list is inevitably incomplete.  I am reading several articles _a day_ about AI and its uses and misuses in society.  Work to develop a framework rather than a long list of specific rules.
 
+1. _Blood in the Machine_
 1. Nataliya Kosmyna, Eugene Hauptmann, Ye Tong Yuan, Jessica Situ, Xian-Hao Liao, Ashly Vivian Beresnitzky, Iris Braunstein, Pattie Maes, [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/abs/2506.08872)
 1. Lucy Osler, [Hallucinating with AI: AI Psychosis as Distributed Delusions
 ](https://arxiv.org/abs/2508.19588)
