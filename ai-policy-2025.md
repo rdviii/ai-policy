@@ -281,12 +281,12 @@ The prior century:
 
 This century:
 
-1. AlexNet
-1. AlphaZero
-1. Attention is All You Need
+1. [AlexNet](https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)
+1. [AlphaZero](https://www.science.org/doi/10.1126/science.aar6404)
+1. [Attention is All You Need](https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
 1. BERT
 1. AlphaFold?
-1. Checkers is Solved
+1. [Checkers is Solved](https://www.science.org/doi/10.1126/science.1144079) (Worth reading for the contrast in computational difficulty.)
 1. (something on architectures or performance for AI)
 
 ### Ethics and Society
