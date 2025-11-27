@@ -63,7 +63,7 @@ There are downsides to the use of AI from multiple points of view: the pragmatic
 
 ### Moral and Ethical Issues
 
-Let's begin with the moral and ethical issues, because they affect as all as individuals and as a society, and therefore underlie all of the other roles discussed below.
+Let's begin with the moral and ethical issues, because they affect us all as individuals and as a society, and therefore underlie all of the other roles discussed below.
 
 1. Excessive consumption of energy.
 1. Distortion of semiconductor market https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble
@@ -73,15 +73,13 @@ Let's begin with the moral and ethical issues, because they affect as all as ind
 1. It may also produce inaccurate information (including images) when such things matter, [like in a medical setting](https://www.linkedin.com/posts/amandagautierillustration_ai-is-everywhere-in-general-as-many-other-activity-7399031648539021312-WkJO/).
 1. Possible suicide ideation and encouragement. https://arstechnica.com/ai/2025/10/openai-data-suggests-1-million-users-discuss-suicide-with-chatgpt-weekly/ https://apnews.com/article/openai-chatgpt-lawsuit-suicide-56e63e5538602ea39116f1904bf7cdc3# https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis
 
-
-
 On the theft of IP, are you willing to be on _either_ end of that?
 
 [MechaHitler](https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content) may be the garish end point of LLM bias, but _every_ system will have some bias.
 
 ### Concerns You Should Have as a Learner
 
-The pragramatic concerns from the user's side, either as a learner:
+The pragramatic concerns from the user's side, as a learner:
 
 1. The harder the question, the wronger the answer.
 2. Learning & retention are (seem to be?) impaired.
@@ -106,7 +104,7 @@ Similarly, as you know, present-day systems have a tendency to "hallucinate" (tr
 
 (5.) **It can't read your mind:** When you ask it to create an outline or a summary of something, or to extend or refine something you are creating, it usually doesn't do what _you_ would do if you did the work yourself, and so your own ideas and opinions get lost.
 
-(6.) **It can't do math:** again, it doesn't generate something true, just something plausible.  There was a lot of humor as early image generation programs created images of people with six fingers and worse, but the problem extended to basic abstract mathematics, as well.  This is one that is being "solved" by special-casing the systems to recognize mathematics questions and send them to a separate engine.  But even as the AIs themselves learn to do math, this will get better, but having an AI do basic math for you will cost millions or maybe billions of times as much energy as a well-tuned program for the specific purpose.  (More on that below.)
+(6.) **It can't do math:** again, an LLM doesn't generate something true, just something plausible.  There was a lot of humor as early image generation programs created images of people with six fingers and worse, but the problem extended to basic abstract mathematics, as well.  This is one that is being "solved" by special-casing the systems to recognize mathematics questions and send them to a separate engine.  As the AIs themselves learn to do math, this will get better, but having an AI do basic math for you will cost millions or maybe billions of times as much energy as a well-tuned program for the specific purpose.  (More on that below.)
 
 (7.) **All AI-generated answers sound the same:** If you're writing an essay or other original material, don't you want it to stand out?  Faculty friends of mine who spend more time with written essays say that all of the essays they receive that are written by or with the help of an AI sound the same.
 
@@ -175,6 +173,7 @@ Society cannot function without mutual respect for others.  (See e.g. [the Calte
 1. Read _a lot_ -- news, contemporary nonfiction books, SF.
 1. Do not share your personal or private information with an AI.
 1. Do not use an AI as a counselor or therapist.
+1. Do not become emotionally involved with an AI.
 1. Look for classical solutions when the problem is important.
 
 ### Recommendations for Instructors & Mentors
@@ -183,12 +182,13 @@ One of my most valued colleagues says, paraphrasing, "Just like the Internet thi
 
 ### Rules for Learners
 
-1. Disclose _all_ use of AI, in detail.
+1. Disclose _all_ use of LLMs or genAI, in detail.
 1. Do not submit anything directly created by an LLM.  Your submissions are to be _your work_.
+1. (In other classes or campus groups, be aware of and adhere to their local policies.)
 
 ### Rules for Researchers
 
-1. Disclose _all_ use of AI, in detail.
+1. Disclose _all_ use of LLMs or genAI, in detail.
 1. Do not submit anything created by an AI.  Your submissions are to be _your work_.
 1. Be aware of and follow policies issued by journals and preprint servers such as [the arXiv](https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/).
 
@@ -291,9 +291,14 @@ This century:
 
 ### Ethics and Society
 
-I know this is the core of what this document is about, but this aspect is moving even faster than the technology, so this list is inevitably incomplete.  I am reading several articles _a day_ about AI and its uses and misuses in society.  Work to develop a framework rather than a long list of specific rules.
+I know this is the core of what this document is about, but this aspect is moving even faster than the technology, so this list is inevitably incomplete.  As of this writing, I am reading several articles _a day_ about AI and its uses and misuses in society.  Work to develop a framework rather than a long list of specific rules.
 
-1. _Blood in the Machine_
+Books:
+
+1. Brian Merchant, [_Blood in the Machine_](https://www.hachettebookgroup.com/titles/brian-merchant/blood-in-the-machine/9780316487740/).  I cannot recommend this book highly enough.
+
+Research papers and preprints:
+
 1. Nataliya Kosmyna, Eugene Hauptmann, Ye Tong Yuan, Jessica Situ, Xian-Hao Liao, Ashly Vivian Beresnitzky, Iris Braunstein, Pattie Maes, [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/abs/2506.08872)
 1. Lucy Osler, [Hallucinating with AI: AI Psychosis as Distributed Delusions
 ](https://arxiv.org/abs/2508.19588)
