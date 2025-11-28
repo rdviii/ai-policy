@@ -40,7 +40,7 @@ A very short list of vocabulary you will need (my definitions; would probably be
 * **machine learning (ML):**
 * **neural network:** a type of AI technique that stores _learned_ information in interconnections and their weights in a multi-layered data structure loosely modeled on networks of neurons.
 * **symbolic or logic AI:** loosely, GOFAI.  Expert systems, many heuristic algorithms, any hand-coded chess-playing program, any hand-structured knowledge base, dedicated theorem provers.  Dominated AI until neural nets were shown to be practical with AlexNet.  For many decades, often programmed in Lisp or Prolog.  Japan's [Fifth Generation System](https://en.wikipedia.org/wiki/Fifth_Generation_Computer_Systems) was an inference engine in this class.
-* transformer
+* **transformer:** the version of neural networks underlying all of the GPTs and many other things, as presented in "Attention is All You Need".
 
 In the rest of this document, if we refer to "AI" without additional qualifiers, it is safe to assume we mean genAI or LLM, as appropriate.
 
@@ -267,9 +267,9 @@ It seems incumbent on all technologists at this point to have at least a basic g
 
 #### Technical Books
 
-1. [Artificial Intelligence: A Modern Approach, 2nd ed.]
-1. [Deep Learning]
-1. Stephen Welch, [](http://www.welchlabs.com/resources/ai-book) (Probably.  It's not published yet, but I have no doubt it's going to be excellent.)
+1. Stuart Russell and Peter Norvig, [Artificial Intelligence: A Modern Approach, 4th ed.](https://aima.cs.berkeley.edu/)
+1. Ian Goodfellow and Yoshua Bengio and Aaron Courville, [Deep Learning](https://www.deeplearningbook.org/)
+1. Stephen Welch, [The Welch Labs Illustrated Guide to AI](http://www.welchlabs.com/resources/ai-book) (Probably.  It's not published yet, but I have no doubt it's going to be excellent, and up to date.)
 
 #### (A Very Few) Key Technical Papers
 
