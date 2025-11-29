@@ -27,7 +27,7 @@ With all of that prologue, let's look at the state of "AI", and its plusses and 
 
 Fundamentally, a current-generation AI (i.e., LLM) doesn't find a _true_ answer, it synthesizes something that _looks plausible_.  That is its only metric.  A while back, I asked one for a biography of me, and it didn't even get my universities right, although it did report some plausible-looking results.  Current LLMs have no notion of true or false, just plausible or not-plausible as words.
 
-Researchers are, of course, working on improving AIs, including the lab and company (companies?) of Fei-Fei Li at Stanford; a quick search will turn up lots of things, some of them [recent](https://www.forbes.com/sites/geekgirlrising/2025/11/20/fei-fei-li-ushers-in-ais-next-frontier-spatial-intelligence/) about their work in what she calls "spatial intelligence".  Spatial intelligence will require a certain level of ground truth.
+Researchers are, of course, working on improving AIs, including the lab and company (companies?) of Fei-Fei Li at Stanford; a quick search will turn up lots of things, some of them [recent](https://www.forbes.com/sites/geekgirlrising/2025/11/20/fei-fei-li-ushers-in-ais-next-frontier-spatial-intelligence/), about their work in what she calls "spatial intelligence".  Spatial intelligence will require a certain level of ground truth.
 
 A very short list of vocabulary you will need (my definitions; would probably be better to pick up commonly accepted ones from somewhere):
 
