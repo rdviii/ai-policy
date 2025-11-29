@@ -39,8 +39,8 @@ A very short list of vocabulary you will need (my definitions; would probably be
 * **large language model (LLM):**
 * **machine learning (ML):**
 * **neural network:** a type of AI technique that stores _learned_ information in interconnections and their weights in a multi-layered data structure loosely modeled on networks of neurons.
-* **symbolic or logic AI:** loosely, GOFAI.  Expert systems, many heuristic algorithms, any hand-coded chess-playing program, any hand-structured knowledge base, dedicated theorem provers.  Dominated AI until neural nets were shown to be practical with AlexNet.  For many decades, often programmed in Lisp or Prolog.  Japan's [Fifth Generation System](https://en.wikipedia.org/wiki/Fifth_Generation_Computer_Systems) was an inference engine in this class.
-* **transformer:** the version of neural networks underlying all of the GPTs and many other things, as presented in "Attention is All You Need".
+* **[symbolic or logic AI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence):** loosely, GOFAI.  Expert systems, many heuristic algorithms, any hand-coded chess-playing program, any hand-structured knowledge base, dedicated theorem provers.  Dominated AI until neural nets were shown to be practical with AlexNet.  For many decades, often programmed in Lisp or Prolog.  Japan's [Fifth Generation System](https://en.wikipedia.org/wiki/Fifth_Generation_Computer_Systems) was an inference engine in this class.
+* **[transformer](https://en.wikipedia.org/wiki/Transformer_(deep_learning)):** the version of neural networks underlying all of the GPTs and many other things, as presented in "Attention is All You Need".
 
 In the rest of this document, if we refer to "AI" without additional qualifiers, it is safe to assume we mean genAI or LLM, as appropriate.
 
@@ -55,7 +55,7 @@ There are some obvious reasons that AI is attracting a lot of positive attention
 1. It can turn quickly-written phrases or bullet points into more fleshed-out descriptions (if not always exactly what you wanted).
 1. It can bring structure to an otherwise unstructured set of data fairly quickly; for example, consider the attempt by one researcher to [reorganize all of the protocol rules in the RFCs](https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-03-jpotvin-rasprg-00). (On the minus side, note the failure of [Cyc](https://en.wikipedia.org/wiki/Cyc) to organize all of human knowledge.)
 1. All of us (including me) use online translation tools; the quality of those is increasing rapidly, thanks to LLMs.  (If you are reading this in Japanese or another language, it was probably translated using an LLM, either explicitly or implicitly.)
-1. Math proofs.
+1. Math proofs.  Scott Aaronson recently published [a blog posting]](https://scottaaronson.blog/?p=9183) about his experience in mid-2025 using GPT-5 Thinking to help him with a math proof. He was impressed.  Specialized automated theorem provers have been [a topic of research](https://en.wikipedia.org/wiki/Automated_theorem_proving#First_implementations) since the earliest days of AI, but having LLMs contribute positively in this area is a fairly new development, and well worth watching.
 
 ## Concerns
 
@@ -104,7 +104,8 @@ Similarly, as you know, present-day systems have a tendency to "hallucinate" (tr
 
 (5.) **It can't read your mind:** When you ask it to create an outline or a summary of something, or to extend or refine something you are creating, it usually doesn't do what _you_ would do if you did the work yourself, and so your own ideas and opinions get lost.
 
-(6.) **It can't do math:** again, an LLM doesn't generate something true, just something plausible.  There was a lot of humor as early image generation programs created images of people with six fingers and worse, but the problem extended to basic abstract mathematics, as well.  This is one that is being "solved" by special-casing the systems to recognize mathematics questions and send them to a separate engine.  As the AIs themselves learn to do math, this will get better, but having an AI do basic math for you will cost millions or maybe billions of times as much energy as a well-tuned program for the specific purpose.  (More on that below.)
+(6.) **It can't do math:** again, an LLM doesn't generate something true, just something plausible.  There was a lot of humor as early image generation programs created images of people with six fingers and worse, but the problem extended to basic abstract mathematics, as well.  This is one that is being "solved" by special-casing the systems to recognize mathematics questions and send them to a separate engine.  As the AIs themselves learn to do math, this will get better, but having an AI do basic math for you will cost millions or maybe billions of times as much energy as a well-tuned program for the specific purpose.  (More on that below.) And in Nov. 2025, I asked ChatGPT about the amount 「57,505億円」　(57,505 oku yen, where 1 oku = 1E8).  ChatGPT told me that was 57.5 trillion yen, adding a zero, so between language differences and math notation differences it got lost somewhere. So, don't trust an LLM's math.
+]
 
 (7.) **All AI-generated answers sound the same:** If you're writing an essay or other original material, don't you want it to stand out?  Faculty friends of mine who spend more time with written essays say that all of the essays they receive that are written by or with the help of an AI sound the same.
 
@@ -278,6 +279,7 @@ The prior century:
 1. The perceptron
 1. Eliza
 1. DeepMind
+1. Edward A. Feigenbaum and Pamela McCorduck, [The Fifth Generation](https://www.amazon.co.jp/Fifth-Generation-Artificial-Intelligence-Challenge/dp/0201115190) (you're here in Japan, you should know this; read in English or Japanese about it!)
 
 This century:
 
