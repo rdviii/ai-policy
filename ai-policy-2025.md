@@ -29,7 +29,7 @@ Fundamentally, a current-generation AI (i.e., LLM) doesn't find a _true_ answer,
 
 Researchers are, of course, working on improving AIs, including the lab and company (companies?) of Fei-Fei Li at Stanford; a quick search will turn up lots of things, some of them [recent](https://www.forbes.com/sites/geekgirlrising/2025/11/20/fei-fei-li-ushers-in-ais-next-frontier-spatial-intelligence/), about their work in what she calls "spatial intelligence".  Spatial intelligence will require a certain level of ground truth.
 
-A very short list of vocabulary you will need (my definitions; would probably be better to pick up commonly accepted ones from somewhere):
+A very short list of vocabulary you will need (my definitions; it would probably be better to pick up commonly accepted ones from somewhere):
 
 * **chatbot:** the common interface to an LLM, with text input from the human and responses from the AI.
 * **classifier:** a type of AI that is used to analyze input and place it into one of a set of known (trained) bins; the canonical example is images of cats v. images of dogs.
@@ -181,6 +181,8 @@ Society cannot function without mutual respect for others.  (See e.g. [the Calte
 
 One of my most valued colleagues says, paraphrasing, "Just like the Internet thirty years ago, AI is the next generation of tool. We really should give students the experience of using it and working with it; that will make them more valuable on the job market."
 
+One recommendation (a minority opinion, to be sure) is [the barbell approach](https://inexactscience.substack.com/p/university-education-as-we-know-it).
+
 ### Rules for Learners
 
 1. Disclose _all_ use of LLMs or genAI, in detail.
@@ -274,14 +276,16 @@ It seems incumbent on all technologists at this point to have at least a basic g
 
 #### (A Very Few) Key Technical Papers
 
-The prior century:
+The prior century (most of these can be replaced by shorter, more modern descriptions in textbooks):
 
-1. The perceptron
-1. Eliza
-1. DeepMind
+1. Warren McCulloch and Walter Pitts, "[A Logical Calculus of the Ideas Immanent in Nervous Activity](https://en.wikipedia.org/wiki/A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity)"
+1. Rosenblatt, "[THE PERCEPTRON: A PROBABILISTIC MODEL FOR INFORMATION STORAGE AND ORGANIZATION IN THE BRAIN](https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf)"
+1. Weizenbaum, [ELIZA—a computer program for the study of natural language communication between man and machine](https://dl.acm.org/doi/10.1145/365153.365168)
+1. Campbell, Hoane Jr., and Hsu, [Deep Blue](https://www.sciencedirect.com/science/article/pii/S0004370201001291) and [IBM's Deep Blue Chess grandmaster chips](https://ieeexplore.ieee.org/document/755469) (use your Keio VPN or a campus network to access)
 1. Edward A. Feigenbaum and Pamela McCorduck, [The Fifth Generation](https://www.amazon.co.jp/Fifth-Generation-Artificial-Intelligence-Challenge/dp/0201115190) (you're here in Japan, you should know this; read in English or Japanese about it!)
+1. Back propagation
 
-This century:
+This century (many of which are too new to have shown up in textbooks):
 
 1. [AlexNet](https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)
 1. [AlphaZero](https://www.science.org/doi/10.1126/science.aar6404)
