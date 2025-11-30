@@ -281,7 +281,7 @@ The prior century (most of these can be replaced by shorter, more modern descrip
 1. Warren McCulloch and Walter Pitts, "[A Logical Calculus of the Ideas Immanent in Nervous Activity](https://en.wikipedia.org/wiki/A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity)"
 1. Rosenblatt, "[THE PERCEPTRON: A PROBABILISTIC MODEL FOR INFORMATION STORAGE AND ORGANIZATION IN THE BRAIN](https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf)"
 1. Weizenbaum, [ELIZA—a computer program for the study of natural language communication between man and machine](https://dl.acm.org/doi/10.1145/365153.365168)
-1. Campbell, Hoane Jr., and Hsu, [Deep Blue](https://www.sciencedirect.com/science/article/pii/S0004370201001291) and [IBM's Deep Blue Chess grandmaster chips](https://ieeexplore.ieee.org/document/755469) (use your Keio VPN or a campus network to access)
+1. Campbell, Hoane Jr., and Hsu, [Deep Blue](https://www.sciencedirect.com/science/article/pii/S0004370201001291) and Hsu, [IBM's Deep Blue Chess grandmaster chips](https://ieeexplore.ieee.org/document/755469) (use your Keio VPN or a campus network to access)
 1. Edward A. Feigenbaum and Pamela McCorduck, [The Fifth Generation](https://www.amazon.co.jp/Fifth-Generation-Artificial-Intelligence-Challenge/dp/0201115190) (you're here in Japan, you should know this; read in English or Japanese about it!)
 1. Back propagation
 
