@@ -263,7 +263,7 @@ It seems incumbent on all technologists at this point to have at least a basic g
 
 #### Video Courses, Explainers, and Online Tools
 
-1. Grant Sanderson _et al._, [_Neural Networks_](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) YouTube course on the 3 Blue, 1 Brown channel. (9 videos totalling 3 hours)
+1. Grant Sanderson _et al._, [_Neural Networks_](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) YouTube course on the 3 Blue, 1 Brown channel. (9 videos totalling 3 hours) (**out of everything listed here, the best place to start understanding the technology**)
 1. [The moment we stopped understanding AI [AlexNet]](https://youtu.be/UZDiGooFs54?si=OLZjaqaAU0P0Itmq). (The title is misleading, it's much more about understanding how NNs learn to understand images.)
 1. Andrew Ng and Kian Katanforoosh, [CS 230](https://cs230.stanford.edu/syllabus/) at Stanford. (10 video lectures, 50-90 minutes each, plus Coursera, plus substantial homework/programming assignments)
 1. Brendan Bycroft, [LLM Visualization](https://bbycroft.net/llm)
