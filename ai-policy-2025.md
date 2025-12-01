@@ -66,7 +66,7 @@ There are downsides to the use of AI from multiple points of view: the pragmatic
 Let's begin with the moral and ethical issues, because they affect us all as individuals and as a society, and therefore underlie all of the other roles discussed below.
 
 1. Excessive consumption of energy.
-1. Distortion of semiconductor market https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble
+1. Distortion of semiconductor market https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble [OpenAI may consume as much as 40% of DRAM production](https://www.tomshardware.com/pc-components/dram/openais-stargate-project-to-consume-up-to-40-percent-of-global-dram-output-inks-deal-with-samsung-and-sk-hynix-to-the-tune-of-up-to-900-000-wafers-per-month) from Samsung and SK hynix
 1. Theft of intellectual property (and loss of revenue). https://www.cbc.ca/news/business/anthropic-ai-copyright-settlement-1.7626707 https://futurism.com/artificial-intelligence/openai-danger-authors-internal-slack-messages
 1. Undocumented bias (e.g., against Black people when evaluating creditworthiness; Musk's current efforts to get Grok to reflect his own personal political bias)
 1. Are we as a society ready to put many people ([including artists](https://www.linkedin.com/posts/amandagautierillustration_ai-is-everywhere-in-general-as-many-other-activity-7399031648539021312-WkJO/), who often already have a marginal economic life) out of work? 
@@ -135,7 +135,7 @@ As a researcher:
 
 **Incorrect research.**  Note that this includes [hallucinated citations](https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php)
 
-**Leakage of your original work.** "White hat" hackers have shown that it is possible to [convince a chatbot to reveal data](https://news.uoguelph.ca/2025/08/ai-chatbots-are-giving-away-your-companys-data/) that it has learned through what is supposed a secret conversation.  I haven't checked, but I'm sure that the AI companies' user agreements promise that they won't share your secret info, but confirming this is harder than for ordinary classical systems.
+**Leakage of your original work.** "White hat" hackers have shown that it is possible to [convince a chatbot to reveal data](https://news.uoguelph.ca/2025/08/ai-chatbots-are-giving-away-your-companys-data/) that it has learned through what is supposed to be a secret conversation.  I haven't checked, but I'm sure that the AI companies' user agreements promise that they won't share your secret info, but confirming this is harder than for ordinary classical systems (which is already ridiculously hard).
 
 Microsoft has also [recently found](https://www.microsoft.com/en-us/security/blog/2025/11/07/whisper-leak-a-novel-side-channel-cyberattack-on-remote-language-models/) that there are additional side channel attacks, but that seems inevitable; ordinary non-AI systems also have vulnerabilities found on a regular basis.
 
@@ -146,14 +146,15 @@ As a manager/businessperson:
 1. As of today, one estimate has found that 95% of AI projects result in no benefit to the company.
 1. Code developed in large part by AIs is resulting in a lot of "technical debt", especially unanticipated security issues.
 1. Loss of control: dependence on tools over which you have limited control.
+1. As above, if _your_ code leaks out to others due to a security flaw in the LLM, then you have a problem; if some in your team winds up using _someone else's_ code this way, you could be in for a lot of legal liability.
 
 There have been anecdotal reports, for example, that major companies have forced their employees to use AIs, but the employees are finding them less than helpful.  This situation could change, if the developers can gain feedback that helps them make the AIs better.
 
-The last point represents a serious business risk. What happens when your provider changes the AI in ways that affect output you depend on, or worse, they go out of business?  Can you tolerate that?
+The point about control represents a serious business risk. What happens when your provider changes the AI in ways that affect output you depend on, or worse, they go out of business?  Can you tolerate that?
 
 ## Rules and Recommendations
 
-So in light of the above, what kind of specific policy can we put in place?
+So in light of the above, what kind of specific policy can we put in place?  My biggest recommendation to each individual is to work to develop a framework that you can follow (and that you can match to changing circumstances and to requirements in various classes or places), rather than finding a long list of specific rules.
 
 ### Principles
 
@@ -262,7 +263,7 @@ It seems incumbent on all technologists at this point to have at least a basic g
 
 #### Video Courses, Explainers, and Online Tools
 
-1. Grant Sanderson _et al._, [_Neural Networks_](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) YouTube course on the 3 Blue, 1 Brown channel. (9 videos totalling 3 hours) (**out of everything listed here, the best place to start understanding the technology**)
+1. Grant Sanderson _et al._, [_Neural Networks_](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) YouTube course on the 3 Blue, 1 Brown channel. (9 videos totalling 3 hours) (**Out of everything listed here, this is the best place to start understanding the technology.  Everyone in AQUA should do this whole three hours; everyone in my classes is also strongly urged to invest the time.**)
 1. [The moment we stopped understanding AI [AlexNet]](https://youtu.be/UZDiGooFs54?si=OLZjaqaAU0P0Itmq). (The title is misleading, it's much more about understanding how NNs learn to understand images.)
 1. Andrew Ng and Kian Katanforoosh, [CS 230](https://cs230.stanford.edu/syllabus/) at Stanford. (10 video lectures, 50-90 minutes each, plus Coursera, plus substantial homework/programming assignments)
 1. Brendan Bycroft, [LLM Visualization](https://bbycroft.net/llm)
@@ -298,7 +299,7 @@ This century (many of which are too new to have shown up in textbooks):
 
 ### Ethics and Society
 
-I know this is the core of what this document is about, but this aspect is moving even faster than the technology, so this list is inevitably incomplete.  As of this writing, I am reading several articles _a day_ about AI and its uses and misuses in society.  Work to develop a framework rather than a long list of specific rules.
+I know this is the core of what this document is about, but this aspect is moving even faster than the technology, so this list is inevitably incomplete.  As of this writing, I am reading several articles _a day_ about AI and its uses and misuses in society; there is an absolute _flood_ of information, much of it simply regurgitated, some of it new.
 
 Books:
 
