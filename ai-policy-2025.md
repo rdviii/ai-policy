@@ -66,16 +66,14 @@ There are downsides to the use of AI from multiple points of view: the pragmatic
 Let's begin with the moral and ethical issues, because they affect us all as individuals and as a society, and therefore underlie all of the other roles discussed below.
 
 1. Excessive consumption of energy.
-1. Distortion of semiconductor market https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble [OpenAI may consume as much as 40% of DRAM production](https://www.tomshardware.com/pc-components/dram/openais-stargate-project-to-consume-up-to-40-percent-of-global-dram-output-inks-deal-with-samsung-and-sk-hynix-to-the-tune-of-up-to-900-000-wafers-per-month) from Samsung and SK hynix
+1. [Distortion of semiconductor market](https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble): [OpenAI may consume as much as 40% of DRAM production](https://www.tomshardware.com/pc-components/dram/openais-stargate-project-to-consume-up-to-40-percent-of-global-dram-output-inks-deal-with-samsung-and-sk-hynix-to-the-tune-of-up-to-900-000-wafers-per-month) from Samsung and SK hynix
 1. Theft of intellectual property (and loss of revenue). https://www.cbc.ca/news/business/anthropic-ai-copyright-settlement-1.7626707 https://futurism.com/artificial-intelligence/openai-danger-authors-internal-slack-messages
-1. Undocumented bias (e.g., against Black people when evaluating creditworthiness; Musk's current efforts to get Grok to reflect his own personal political bias)
+1. Undocumented bias (e.g., against Black people when evaluating creditworthiness): [MechaHitler](https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content) may be the garish end point of LLM bias, but _every_ system will have some bias.
 1. Are we as a society ready to put many people ([including artists](https://www.linkedin.com/posts/amandagautierillustration_ai-is-everywhere-in-general-as-many-other-activity-7399031648539021312-WkJO/), who often already have a marginal economic life) out of work? 
 1. It may also produce inaccurate information (including images) when such things matter, [like in a medical setting](https://www.linkedin.com/posts/amandagautierillustration_ai-is-everywhere-in-general-as-many-other-activity-7399031648539021312-WkJO/).
 1. Possible suicide ideation and encouragement. https://arstechnica.com/ai/2025/10/openai-data-suggests-1-million-users-discuss-suicide-with-chatgpt-weekly/ https://apnews.com/article/openai-chatgpt-lawsuit-suicide-56e63e5538602ea39116f1904bf7cdc3# https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis
 
 On the theft of IP, are you willing to be on _either_ end of that?
-
-[MechaHitler](https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content) may be the garish end point of LLM bias, but _every_ system will have some bias.
 
 ### Concerns You Should Have as a Learner
 
