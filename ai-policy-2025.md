@@ -9,7 +9,7 @@ First, even before we begin, it is important to note that AI is everywhere, and 
 
 Artificial intelligence (AI), in its current instantiation, warrants a great deal of caution as AI achieves widespread use.  It is perhaps the most transformative information technology of our generation, in terms of the impact on society and how humans go about their daily lives, likely even moreso than our own research area of quantum computing and communications. Let me spend some time explaining my opinion and how I arrived at it before laying down some actionable rules.  I hope this will help group members and students to not only understand _what_ to do and not do, but also _why_, and to develop their own mental framework that will stand them in good stead for some time to come.
 
-(In an example of just how fast things change, in December 2025 Keio [signed an MoU](https://www.japantimes.co.jp/business/2025/12/10/tech/keio-openai/) with OpenAI to integrate AI into our teaching and research.)
+(In an example of just how fast things change, in December 2025 Keio [signed an MoU](https://www.japantimes.co.jp/business/2025/12/10/tech/keio-openai/) with OpenAI to integrate AI into our teaching and research. Press release [in Japanese](https://www.keio.ac.jp/ja/news/2025/12/11/27-171227/).)
 
 ## Prologue: My Own Thoughts and a Little History
 
