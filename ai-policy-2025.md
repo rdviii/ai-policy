@@ -67,6 +67,7 @@ There are downsides to the use of AI from multiple points of view: the pragmatic
 
 Let's begin with the moral and ethical issues, because they affect us all as individuals and as a society, and therefore underlie all of the other roles discussed below.
 
+1. [The existential crisis](https://www.technologyreview.com/2025/12/15/1129171/the-ai-doomers-feel-undeterred/). I am not on the "AI will kill us all" train, but it is worth study and caution.
 1. Excessive consumption of energy.
 1. [Distortion of semiconductor market](https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble): [OpenAI may consume as much as 40% of DRAM production](https://www.tomshardware.com/pc-components/dram/openais-stargate-project-to-consume-up-to-40-percent-of-global-dram-output-inks-deal-with-samsung-and-sk-hynix-to-the-tune-of-up-to-900-000-wafers-per-month) from Samsung and SK hynix
 1. Theft of intellectual property (and loss of revenue). https://www.cbc.ca/news/business/anthropic-ai-copyright-settlement-1.7626707 https://futurism.com/artificial-intelligence/openai-danger-authors-internal-slack-messages
