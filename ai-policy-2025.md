@@ -3,6 +3,8 @@ Rod Van Meter, incorporating and adapting suggested text on rules and examples f
 
 [**"AI is a tool to delegate tasks, not understanding"**](https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-02-jaime-jimenez-01) Jaime Jiménez, RASPRG at IETF 124, Nov. 2025
 
+**As we lead the Internet revolution in 1990s, Keio and SFC should lead the best use of AI for higher education.** Motohiro Tsuchiya, Dec. 2025
+
 This is a set of guidelines for [my research group](https://aqua.sfc.wide.ad.jp/) and the classes I am teaching at [Keio's Shonan Fujisawa Campus](https://www.sfc.keio.ac.jp/). These guidelines supplement the ITC [Guideline for Generative AI Usage at Keio University](https://www.itc.keio.ac.jp/en/software_ai_guideline.html).  This document goes far beyond a simple set of rules to follow, and is intended to serve as a basis _for discussion_, to encourage participants to think about and form their own understanding the technology and its rapidly changing role in our society.
 
 First, even before we begin, it is important to note that AI is everywhere, and that everyone is already using it all the time.  Speech recognition, voice synthesis, chess-playing programs, image recognition systems, even route planning for your road trip are all, technically, artificial intelligence. This document is not intended to be a blanket prohibition on its use (otherwise this would be a very short document), although there are plenty of academics [arguing in favor of this position](https://zenodo.org/records/17065099).
