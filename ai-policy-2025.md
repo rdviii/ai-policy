@@ -60,7 +60,8 @@ There are some obvious reasons that AI is attracting a lot of positive attention
 1. It can bring structure to an otherwise unstructured set of data fairly quickly; for example, consider the attempt by one researcher to [reorganize all of the protocol rules in the RFCs](https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-03-jpotvin-rasprg-00). (On the minus side, note the failure of [Cyc](https://en.wikipedia.org/wiki/Cyc) to organize all of human knowledge.)
 1. All of us (including me) use online translation tools; the quality of those is increasing rapidly, thanks to LLMs.  (If you are reading this in Japanese or another language, it was probably translated using an LLM, either explicitly or implicitly.)
 1. Math proofs.  Scott Aaronson recently published [a blog posting](https://scottaaronson.blog/?p=9183) about his experience in mid-2025 using GPT-5 Thinking to help him with a math proof. He was impressed. Terence Tao also has [a YouTube video](https://www.youtube.com/watch?v=_sTDSO74D8Q) from late 2024 on his impressions; he is a known proponent of the use of AI in mathematics research.  Specialized automated theorem provers have been [a topic of research](https://en.wikipedia.org/wiki/Automated_theorem_proving#First_implementations) since the earliest days of AI, but having LLMs contribute positively in this area is a fairly new development, and well worth watching.
-1. Automation of science. (A topic since at least 2009, including [here](https://www.science.org/doi/abs/10.1126/science.1165620) and [here](https://www.science.org/doi/abs/10.1126/science.1165893).)
+1. [Materials discovery](https://www.nature.com/articles/s41586-023-06735-9).
+1. Automation of science more generally. (A topic since at least 2009, including [here](https://www.science.org/doi/abs/10.1126/science.1165620) and [here](https://www.science.org/doi/abs/10.1126/science.1165893).)
 
 ## Concerns
 
@@ -71,7 +72,7 @@ There are downsides to the use of AI from multiple points of view: the pragmatic
 Let's begin with the moral and ethical issues, because they affect us all as individuals and as a society, and therefore underlie all of the other roles discussed below.
 
 1. [The existential crisis](https://www.technologyreview.com/2025/12/15/1129171/the-ai-doomers-feel-undeterred/). I am not on the "AI will kill us all" train, but it is worth study and caution.
-1. [Excessive consumption of energy](https://www.theguardian.com/technology/2025/dec/18/2025-ai-boom-huge-co2-emissions-use-water-research-finds).
+1. [Excessive consumption of energy](https://www.theguardian.com/technology/2025/dec/18/2025-ai-boom-huge-co2-emissions-use-water-research-finds). IEEE Spectrum recently had an [infographic on query energy consumption](https://spectrum.ieee.org/ai-energy-use) (ignoring model training costs).
 1. [Distortion of semiconductor market](https://www.bloomberg.com/news/articles/2025-10-09/why-experts-are-warning-the-ai-boom-could-be-a-bubble): [OpenAI may consume as much as 40% of DRAM production](https://www.tomshardware.com/pc-components/dram/openais-stargate-project-to-consume-up-to-40-percent-of-global-dram-output-inks-deal-with-samsung-and-sk-hynix-to-the-tune-of-up-to-900-000-wafers-per-month) from Samsung and SK hynix
 1. Theft of intellectual property (and loss of revenue). https://www.cbc.ca/news/business/anthropic-ai-copyright-settlement-1.7626707 https://futurism.com/artificial-intelligence/openai-danger-authors-internal-slack-messages
 1. Undocumented bias (e.g., against Black people when evaluating creditworthiness): [MechaHitler](https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content) may be the garish end point of LLM bias, but _every_ system will have some bias.
