@@ -61,7 +61,7 @@ There are some obvious reasons that AI is attracting a lot of positive attention
 1. All of us (including me) use online translation tools; the quality of those is increasing rapidly, thanks to LLMs.  (If you are reading this in Japanese or another language, it was probably translated using an LLM, either explicitly or implicitly.)
 1. Math proofs.  Scott Aaronson recently published [a blog posting](https://scottaaronson.blog/?p=9183) about his experience in mid-2025 using GPT-5 Thinking to help him with a math proof. He was impressed. Terence Tao also has [a YouTube video](https://www.youtube.com/watch?v=_sTDSO74D8Q) from late 2024 on his impressions; he is a known proponent of the use of AI in mathematics research.  Specialized automated theorem provers have been [a topic of research](https://en.wikipedia.org/wiki/Automated_theorem_proving#First_implementations) since the earliest days of AI, but having LLMs contribute positively in this area is a fairly new development, and well worth watching.
 1. [Materials discovery](https://www.nature.com/articles/s41586-023-06735-9).
-1. Automation of science more generally. (A topic since at least 2009, including [here](https://www.science.org/doi/abs/10.1126/science.1165620) and [here](https://www.science.org/doi/abs/10.1126/science.1165893).)
+1. Automation of science [more generally](https://www.nature.com/articles/s41586-023-06221-2). (A topic since at least 2009, including [here](https://www.science.org/doi/abs/10.1126/science.1165620) and [here](https://www.science.org/doi/abs/10.1126/science.1165893).)
 
 ## Concerns
 
