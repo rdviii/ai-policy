@@ -216,7 +216,7 @@ One recommendation (a minority opinion, to be sure) is [the barbell approach](ht
 
 1. Disclose _all_ use of LLMs or genAI, in detail.
 1. Do not submit anything created by an AI.  Your submissions are to be _your work_.
-1. Be aware of and follow policies issued by journals and preprint servers such as [the arXiv](https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/).
+1. Be aware of and follow policies issued by journals and preprint servers such as [the arXiv](https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/) and [QCE 2026](https://qce.quantum.ieee.org/2026/wp-content/uploads/sites/13/2026/03/QCE26-IEEE-Author-Policies-with-genAI.pdf).
 
 ### Rules for Managers & Businesspeople
 
@@ -347,7 +347,7 @@ Given that our research group focuses in quantum computing and communications, i
 
 Some very recent state-of-the-art reports, including a mix of technical and social topics:
 
-1. [Tao on AI in Mathematics](https://arxiv.org/abs/2603.26524)
+1. [Klowden and Tao on AI in Mathematics](https://arxiv.org/abs/2603.26524)
 1. [Schwartz on Vibe Physics](https://www.anthropic.com/research/vibe-physics)
 1. [Asadi on mirage image recognition](https://arxiv.org/abs/2603.21687)
 1. [Amodei on the tech](https://darioamodei.com/essay/the-adolescence-of-technology)
