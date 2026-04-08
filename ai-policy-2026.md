@@ -18,7 +18,7 @@ This document is structured as follows:
 * Prologue
 * [#What is AI?]
 * The Plusses
-* [#Concerns]
+* [Concerns](#concerns)
 * Rules and Recommendations
 * Examples
 * Consequences
