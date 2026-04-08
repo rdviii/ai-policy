@@ -13,6 +13,8 @@ Artificial intelligence (AI), in its current instantiation, warrants a great dea
 
 (In an example of just how fast things change, in December 2025 Keio [signed an MoU](https://www.japantimes.co.jp/business/2025/12/10/tech/keio-openai/) with OpenAI to integrate AI into our teaching and research. Press release [in Japanese](https://www.keio.ac.jp/ja/news/2025/12/11/27-171227/).)
 
+**Changes for 2026: Adding a requirement for consistent, constant reporting of use.  See [Rules for Learners](#rules-for-learners).**
+
 This document is structured as follows:
 
 * [Prologue](#prologue-my-own-thoughts-and-a-little-history)
@@ -206,7 +208,7 @@ One recommendation (a minority opinion, to be sure) is [the barbell approach](ht
 
 ### Rules for Learners
 
-1. Disclose _all_ use of LLMs or genAI, in detail.
+1. Disclose _all_ use of LLMs or genAI, in detail.  **For AY2026, we will require all presentations and all writing longer than a paragraph to include a report on AI use.**
 1. Do not submit anything directly created by an LLM.  Your submissions are to be _your work_.
 1. (In other classes or campus groups, be aware of and adhere to their local policies.)
 
@@ -340,6 +342,15 @@ Given that our research group focuses in quantum computing and communications, i
 
 1. Francesc Rodríguez-Díaz, David Gutiérrez-Avilés, Alicia Troncoso, Francisco Martínez-Álvarez, [A Survey of Quantum Machine Learning: Foundations, Algorithms, Frameworks, Data and Applications](https://dl.acm.org/doi/10.1145/3764582)
 1. Su Yeon Chang, M. Cerezo, [A Primer on Quantum Machine Learning](https://arxiv.org/abs/2511.15969)
+
+### Recent Reports on the State of the Art
+
+Some very recent state-of-the-art reports, including a mix of technical and social topics:
+
+1. [Tao on AI in Mathematics](https://arxiv.org/abs/2603.26524)
+1. [Schwartz on Vibe Physics](https://www.anthropic.com/research/vibe-physics)
+1. [Asadi on mirage image recognition](https://arxiv.org/abs/2603.21687)
+1. [Amodei on the tech](https://darioamodei.com/essay/the-adolescence-of-technology)
 
 ## History
 
