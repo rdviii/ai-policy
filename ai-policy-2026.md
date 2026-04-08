@@ -16,9 +16,9 @@ Artificial intelligence (AI), in its current instantiation, warrants a great dea
 This document is structured as follows:
 
 * Prologue
-* [What is AI?]
+* [#What is AI?]
 * The Plusses
-* Concerns
+* [#Concerns]
 * Rules and Recommendations
 * Examples
 * Consequences
