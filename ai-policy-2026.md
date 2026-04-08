@@ -1,5 +1,5 @@
-# Artificial Intelligence (AI) Policy for the AQUA Research Group, Quantum Information Processing, and Quantum Internet (Fall 2025)
-Rod Van Meter, incorporating and adapting suggested text on rules and examples from Andrew Todd (though I take responsibility for the current draft; Andrew has not endorsed this yet)
+# Artificial Intelligence (AI) Policy for the AQUA Research Group, Quantum Information Processing, and Quantum Internet (Spring 2026)
+Rod Van Meter, incorporating and adapting suggested text on rules and examples from Andrew Todd
 
 [**"AI is a tool to delegate tasks, not understanding"**](https://datatracker.ietf.org/meeting/124/materials/slides-124-rasprg-02-jaime-jimenez-01) Jaime Jiménez, RASPRG at IETF 124, Nov. 2025
 
@@ -12,6 +12,18 @@ First, even before we begin, it is important to note that AI is everywhere, and 
 Artificial intelligence (AI), in its current instantiation, warrants a great deal of caution as it achieves widespread use.  It is perhaps the most transformative information technology of our generation, in terms of the impact on society and how humans go about their daily lives, likely even moreso than our own research area of quantum computing and communications. Let me spend some time explaining my opinion and how I arrived at it before laying down some actionable rules.  I hope this will help group members and students to not only understand _what_ to do and not do, but also _why_, and to develop their own mental framework that will stand them in good stead for some time to come.
 
 (In an example of just how fast things change, in December 2025 Keio [signed an MoU](https://www.japantimes.co.jp/business/2025/12/10/tech/keio-openai/) with OpenAI to integrate AI into our teaching and research. Press release [in Japanese](https://www.keio.ac.jp/ja/news/2025/12/11/27-171227/).)
+
+This document is structured as follows:
+
+* Prologue
+* [What is AI?]
+* The Plusses
+* Concerns
+* Rules and Recommendations
+* Examples
+* Consequences
+* Caveats and Concluding Remarks
+* References and Learning More
 
 ## Prologue: My Own Thoughts and a Little History
 
@@ -334,3 +346,5 @@ Given that our research group focuses in quantum computing and communications, i
 * 2025/10/21: Restructure rules, all AI essays sound the same.
 * 2025/11/12: Some progress on reformatting and reorganizing, but update to rules themselves still pending.
 * 2025/11/26: Finally got around to bringing in Andrew's examples.
+* 2025/12: Added a few links.
+* 2026/4/8: Minor updates for AY2026.
