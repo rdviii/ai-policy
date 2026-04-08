@@ -15,15 +15,16 @@ Artificial intelligence (AI), in its current instantiation, warrants a great dea
 
 This document is structured as follows:
 
-* Prologue
-* [#What is AI?]
-* The Plusses
+* [Prologue](#prologue-my-own-thoughts-and-a-little-history)
+* [What is AI?](#what-is-ai)
+* [The Plusses](#the-plusses)
 * [Concerns](#concerns)
-* Rules and Recommendations
-* Examples
-* Consequences
-* Caveats and Concluding Remarks
-* References and Learning More
+* [Rules and Recommendations](#rules-and-recommendations)
+* [Examples](#examples)
+* [Consequences](#consequences)
+* [Caveats and Concluding Remarks](#caveats-and-concluding-remarks)
+* [References and Learning More](#references-and-learning-more)
+* [History](#history)
 
 ## Prologue: My Own Thoughts and a Little History
 
